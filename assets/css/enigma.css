@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 /* General styles */
@@ -14,13 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Inter', sans-serif;
     color: #120723;
 }
 
 /* Header */
 header {
-    height: 80px;
+    height: 13vh;
     background-color: #120723;
     position: fixed;
     z-index: 99;
@@ -79,16 +79,16 @@ a {
 }
 
 .checkbox:checked ~ .navigation {
-    height: 100vh;
+    height: 87vh;
     width: 100%;
-    margin: 0vh 0%;
+    margin: 13vh 0%;
     visibility: visible;
 }
 
 /* menu item positioning*/
 .menu {
     height: 60%;
-    padding: 40% 20% 0 20%;
+    padding: 20% 20% 0 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -131,14 +131,14 @@ a {
     top: 0%;
     margin-top: 60vh;
     background-color: #120723;
-    left: 0%;
+    left: 100%;
     /* transform: translateX(0); */
     transition: left 0.2s;
 }
 
-.fa-arrow-right:active .sub-navigation {
-    left: 0%;
-}
+/* .navigation:has(.menu)  {
+    color: aqua;
+} */
 
 .sub-menu {
     height: 80%;
@@ -153,8 +153,13 @@ a {
     color: #fffefd;
 }
 
+.sub-menu span {
+    color: #fffefd;
+    margin-left: 10px;
+}
+
 main {
-    margin-top: 80px;
+    margin-top: 13vh;
 }
 
 .hero {
