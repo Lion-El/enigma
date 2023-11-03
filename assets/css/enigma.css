@@ -63,7 +63,6 @@ a {
     margin: 5px 0;
     background-color: #fffefd;
 }
-/* sandwich icon end */
 
 /* navigation menu-transition */
 .navigation {
@@ -84,8 +83,8 @@ a {
     margin: 0vh 0%;
     visibility: visible;
 }
-/* navigation menu-transition end */
 
+/* menu item positioning*/
 .menu {
     height: 60%;
     padding: 40% 20% 0 20%;
@@ -95,6 +94,7 @@ a {
     align-items: flex-start;
 }
 
+/* nav link styling*/
 .link {
     text-decoration: none;
     color: #7d788a;
@@ -108,12 +108,13 @@ a {
     color: #fffefd;
 }
 
+/* set position and transition arrow menu icon */
 .menu-item {
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fffefd;
+    color: #7d788a;
     transition: width 0.2s;
 }
 
@@ -121,7 +122,6 @@ a {
     width: 168px;
     justify-content: space-between;
 }
-
 
 .sub-navigation {
     position: absolute;
