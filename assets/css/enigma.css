@@ -68,7 +68,7 @@ li {
     margin: 40vh 20% 0 20%;
     background-color: #120723;
     visibility: collapse;
-    transition: width 0.4s, height 0.4s, margin 0.4s;
+    transition: width 0.2s, height 0.2s, margin 0.2s;
 }
 
 .checkbox:checked ~ .navigation {
@@ -105,7 +105,7 @@ li {
     align-items: center;
     justify-content: space-between;
     color: #fffefd;
-    transition: width 0.4s;
+    transition: width 0.2s;
 }
 
 .checkbox:checked ~ .navigation .menu-item {
@@ -117,21 +117,30 @@ li {
 .sub-navigation {
     position: absolute;
     height: 40vh;
-    width: 80%;
+    width: 100%;
     top: 391.8px;
     margin: 10px 10px 0 10px;
     background-color: #120723;
-    visibility: collapse;
-    transition: width 0.4s;
+    /* left: 100%; */
+    transform: translateX(0);
+    transition: translateX 0.2s;
+}
+
+.fa-arrow-right:active .sub-navigation {
+    transform: translateX();
 }
 
 .sub-menu {
     height: 80%;
-    padding: 20% 20% 0 20%;
+    padding: 10% 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sub-menu > i {
+    color: #fffefd;
 }
 
 main {
@@ -155,7 +164,7 @@ main {
         margin: 27.5vh 20% 0 20%;
         background-color: #120723;
         visibility: collapse;
-        transition: width 0.4s, height 0.4s, margin 0.4s;
+        transition: width 0.2s, height 0.2s, margin 0.2s;
     }
 
     .checkbox:checked ~ .navigation {
