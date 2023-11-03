@@ -70,12 +70,12 @@ a {
     position: absolute;
     z-index: -1;
     height: 1000vh;
-    width: 60%;
+    width: 40%;
     top: 0%;
     margin: 20vh 20% 0 20%;
     background-color: #120723;
-    /* visibility: collapse; */
-    transition: width 0.2s, height 0.2s, margin 0.2s;
+    visibility: collapse;
+    transition: width 0.2s, height 0.3s, margin 0.2s;
 }
 
 .checkbox:checked ~ .navigation {
