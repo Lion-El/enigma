@@ -109,7 +109,7 @@ a {
     color: #fffefd;
 }
 
-/* set position and transition arrow menu icon */
+/* set styling, position and transition arrow menu icon */
 .menu-item {
     width: 100px;
     display: flex;
@@ -122,6 +122,11 @@ a {
 .checkbox:checked ~ .navigation .menu-item {
     width: 168px;
     justify-content: space-between;
+}
+
+.fa-solid {
+    font-size: 1rem;
+    margin: 3px;
 }
 
 /* position and transition for events sub menu */
@@ -148,15 +153,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-}
-
-.sub-menu > i {
-    color: #fffefd;
-}
-
-.sub-menu span {
-    color: #fffefd;
-    margin-left: 10px;
 }
 
 main {
