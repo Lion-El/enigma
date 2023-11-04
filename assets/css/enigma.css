@@ -90,6 +90,8 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    opacity: 1;
+    transition: opacity 0.3s linear;
 }
 
 /* nav link styling */
@@ -126,8 +128,8 @@ a {
     color: #fffefd;
 }
 
-/* position and transition for events sub menu and main menu */
-.events-navigation {
+/* universal sub nav and menu position and transition */
+.sub-nav {
     position: absolute;
     height: 50vh;
     width: 100%;
@@ -135,19 +137,24 @@ a {
     margin-top: 50vh;
     background-color: #120723;
     left: -100%;
-    /* transform: translateX(0); */
     transition: left 0.2s;
 }
 
 .checkbox-sub-menu:checked ~ .navigation .events-navigation {
-    left: -100%;
+    left: 0%;
 }
 
-.checkbox-sub-menu:checked ~ .navigation {
-    left: 100%;
+.checkbox-sub-menu:checked ~ .navigation .gallery-navigation {
+    left: 0%;
 }
 
-.events-menu {
+.checkbox-sub-menu:checked ~ .navigation .menu {
+  visibility: collapse;
+  opacity: 0;
+  transition: visibility 0s 0.3s, opacity 0.3s linear;
+}
+
+.sub-menu {
     height: 80%;
     padding: 10% 20% 30%;
     display: flex;
