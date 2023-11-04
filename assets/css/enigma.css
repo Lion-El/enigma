@@ -120,11 +120,11 @@ a {
 }
 
 .checkbox:checked ~ .navigation .menu-item {
-    width: 168px;
+    width: 100%;
     justify-content: space-between;
 }
 
-.fa-solid {
+.fa {
     font-size: 1rem;
     margin: 3px;
 }
