@@ -38,6 +38,10 @@ a {
     text-decoration: none;
 }
 
+input[type=checkbox] {
+    display: none;
+}
+
 /* Generic list styles end */
   
 #logo {
