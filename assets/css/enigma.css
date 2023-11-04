@@ -38,9 +38,9 @@ a {
     text-decoration: none;
 }
 
-input[type=checkbox] {
+/* input[type=checkbox] {
     display: none;
-}
+} */
 
 /* Generic list styles end */
   
@@ -71,36 +71,34 @@ input[type=checkbox] {
 /* navigation menu-transition */
 .navigation {
     position: absolute;
-    height: 1000vh; /* height and margin drop menu items below view port*/
+    height: 1000vh; /* extra height to stretch out items*/
     width: 100%;
     top: 0%;
-    left: 0%;
-    margin-top: 13vh;
+    margin-top: 13vh; /* moves items below viewport */
     background-color: #120723;
     visibility: collapse;
-    transition: height 0.3s, left 0.2s;
+    transition: height 0.3s;
 }
 
 .checkbox:checked ~ .navigation {
-    height: 87vh;
+    height: 87vh; /* reduced height squashes items together
+                             creating sliding effect */
     visibility: visible;
 }
 
 /* menu item positioning */
 .menu {
     height: 60%;
-    padding: 10% 20% 0 20%;
+    padding: 0 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start;
     opacity: 1;
     transition: opacity 0.3s linear;
 }
 
 /* nav link styling */
-.link {
-    text-decoration: none;
+.main-link {
     color: #7d788a;
     font-size: 18px;
     font-weight: 400;
@@ -108,7 +106,7 @@ input[type=checkbox] {
     margin: 20px 0;
 }
 
-.link:active {
+.main-link:active {
     color: #fffefd;
 }
 
@@ -135,36 +133,57 @@ input[type=checkbox] {
 /* universal sub nav and menu position and transition */
 .sub-nav {
     position: absolute;
-    height: 50vh;
+    height: 1000vh;
     width: 100%;
     top: 0%;
-    margin-top: 50vh;
+    left: 0%;
+    margin-top: 65vh;
     background-color: #120723;
-    left: -100%;
-    transition: left 0.2s;
+    visibility: collapse;
+    transition: height 0.1s;
 }
 
-.checkbox-sub-menu:checked ~ .navigation .events-navigation {
+.checkbox-sub-menu:checked ~ .gallery-navigation {
+    height: 35vh; /* reduced height squashes items together
+                             creating sliding effect */
+    visibility: visible;
+}
+
+/* .checkbox-sub-menu:checked ~ .navigation .events-navigation {
     left: 0%;
 }
 
 .checkbox-sub-menu:checked ~ .navigation .gallery-navigation {
     left: 0%;
-}
+} */
 
-.checkbox-sub-menu:checked ~ .navigation .menu {
+/* .checkbox-sub-menu:checked ~ .navigation .menu {
   visibility: collapse;
   opacity: 0;
   transition: visibility 0s 0.3s, opacity 0.3s linear;
-}
+} */
 
 .sub-menu {
-    height: 80%;
-    padding: 10% 20% 30%;
+    height: 100%;
+    padding: 0% 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+/* nav link styling */
+.sub-link {
+    color: #7d788a;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin: 10px 0;
+}
+
+.checkbox:checked ~ .gallery-navigation .menu-item {
+    width: 100%;    /*adjust icon postion according to device 
+    - parent streches reletive ot padding percentage determined 
+    by device size*/
 }
 
 /* header end */
