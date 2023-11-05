@@ -82,8 +82,15 @@ input[type=checkbox] {
     height: 2px;
     background-color: #7d788a;
     opacity: 0;
-    transform: rotate(0deg);
     transition: all 0.1ms linear;
+}
+
+.line-3 {
+    transform: rotate(45deg);
+}
+
+.line-4 {
+    transform: rotate(-45deg);
 }
 
 .sandwich-icon:checked ~ label .line-1 {
@@ -97,15 +104,13 @@ input[type=checkbox] {
 }
 
 .sandwich-icon:checked ~ label .line-3 {
-    transform: rotate(405deg);
     opacity: 1;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
 }
 
 .sandwich-icon:checked ~ label .line-4 {
-    transform: rotate(-405deg);
     opacity: 1;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
 }
 
 /* navigation menu - animation */
