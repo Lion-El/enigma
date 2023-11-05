@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #120723;
+    background-color: #ffffff;
 }
 
 /* Header */
@@ -46,7 +47,7 @@ input[type=checkbox] {
   
 #logo {
     font-family: "haboro-contrast-extended", sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     font-style: italic;
     color: #fffefd;
@@ -152,7 +153,7 @@ input[type=checkbox] {
 .link, .menu-label {
     text-decoration: none;
     color: #7d788a;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     letter-spacing: 0.1px;
 }
@@ -160,8 +161,6 @@ input[type=checkbox] {
 .link:active {
     color: #fffefd;
 }
-
-
 
 .fa-chevron-left, .fa-chevron-right {
     font-size: 1rem;
@@ -196,12 +195,6 @@ input[type=checkbox] {
     left: 0%;
 }
 
-.sub-navigation:checked ~ .navigation .menu {
-  visibility: collapse;
-  opacity: 0;
-  transition: visibility 0s 0.3s, opacity 0.3s linear;
-}
-
 .sub-menu {
     padding: 0 20% 100%;
     display: flex;
@@ -226,10 +219,9 @@ input[type=checkbox] {
     color: #fffefd;
 }
 
-
-
 /* header end */
 
+/* main */
 main {
     margin-top: 13vh;
 }
@@ -240,3 +232,4 @@ main {
     background: linear-gradient(to top, rgba(0,0,0, 0.3), rgba(0,0,0, 0.4)), 
     url(/assets/img/adobe-stock-576195150.jpg) no-repeat center center/cover;
 }
+
