@@ -52,23 +52,63 @@ input[type=checkbox] {
     color: #fffefd;
 }
 
-/* sandwich icon */
-.menu-icon {
+/* sandwich icon style and animation*/
+.open-icon {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.close-icon {
+    position: relative;
+    bottom: 13px;
+    left: 5px;
+}
 
 .line {
     width: 40px;
     height: 2px;
     margin: 5px 0;
     background-color: #fffefd;
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.2s linear;
 }
 
-/* navigation menu - transition */
+.line-3, .line-4 {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #7d788a;
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: all 0.1ms linear;
+}
+
+.sandwich-icon:checked ~ label .line-1 {
+    transform: translateY(6px);
+    opacity: 0;
+}
+
+.sandwich-icon:checked ~ label .line-2 {
+    transform: translateY(-6px);
+    opacity: 0;
+}
+
+.sandwich-icon:checked ~ label .line-3 {
+    transform: rotate(405deg);
+    opacity: 1;
+    transition: all 0.4s linear;
+}
+
+.sandwich-icon:checked ~ label .line-4 {
+    transform: rotate(-405deg);
+    opacity: 1;
+    transition: all 0.4s linear;
+}
+
+/* navigation menu - animation */
 .navigation {
     position: absolute;
     height: 87vh;
@@ -78,12 +118,12 @@ input[type=checkbox] {
     margin-top: 13vh;
     background-color: #120723;
     opacity: 0;
-    transition: opacity 0.1s linear;
+    transition: opacity 0.2s linear;
 }
 
-.main-navigation:checked ~ .navigation {
+.sandwich-icon:checked ~ .navigation {
     opacity: 1;
-    transition: opacity 0.1s linear;
+    transition: opacity 0.2s linear;
 }
 
 /* menu item positioning */
@@ -123,7 +163,7 @@ input[type=checkbox] {
     color: #fffefd;
 }
 
-/* universal sub nav and menu position and transition */
+/* universal sub nav and menu position and animation */
 .events-navigation {
     position: absolute;
     z-index: 98;
@@ -142,7 +182,6 @@ input[type=checkbox] {
     left: -100%;
     transition: left 0.2s;
 }
-
 
 .events-nav:checked ~ .navigation > .events-navigation {
     left: 0%;
