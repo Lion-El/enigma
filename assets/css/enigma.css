@@ -228,21 +228,67 @@ input[type=checkbox] {
 
 /* main */
 
-/* hero section*/
+/* hero section */
 main {
     margin-top: 13vh;
 }
 
 .hero {
-    width: 100%;
+    color: #fffefd;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top, rgba(0,0,0, 0.3), rgba(0,0,0, 0.4)), 
+    background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
     url(/assets/img/adobe-stock-576195150.jpg) no-repeat center center/cover;
 }
 
-.hero-heading {
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92.858%;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.banner p:first-child {
     display: inline-block;
     position: relative;
-    margin: 1px 20px;
-
+    left: -25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    align-self: auto;
 }
+
+.banner p:nth-child(2) {
+    position: relative;
+    left: -10px;
+    font-family: "haboro-contrast-extended", sans-serif;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.banner p:nth-child(3) {
+    position: relative;
+    right: -10px;
+    font-family: "haboro-contrast-extended", sans-serif;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.banner p:nth-child(4) {
+    position: relative;
+    left: 20px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.banner p:last-child {
+    position: relative;
+    left: 25px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* hero section end */
