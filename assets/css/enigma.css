@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Segoe UI','Inter', sans-serif;
 }
 
 /* General styles */
@@ -123,13 +123,13 @@ input[type=checkbox] {
     left: 0%;
     margin-top: 13vh;
     background-color: #120723;
-    opacity: 0;
-    transition: opacity 0.2s linear;
+    left: -100%;
+    transition: left 0.2s linear;
 }
 
 .sandwich-icon:checked ~ .navigation {
-    opacity: 1;
-    transition: opacity 0.2s linear;
+    left: 0%;
+    transition: left 0.2s linear;
 }
 
 /* menu item positioning */
@@ -219,9 +219,16 @@ input[type=checkbox] {
     color: #fffefd;
 }
 
+.fa-times {
+    font-size: 1rem;
+    color: #7d788a;
+}
+
 /* header end */
 
 /* main */
+
+/* hero section*/
 main {
     margin-top: 13vh;
 }
@@ -233,3 +240,9 @@ main {
     url(/assets/img/adobe-stock-576195150.jpg) no-repeat center center/cover;
 }
 
+.hero-heading {
+    display: inline-block;
+    position: relative;
+    margin: 1px 20px;
+
+}
