@@ -48,9 +48,9 @@ h2:first-of-type {
     margin-top: 40px;
 }
 
-p {
+p, li {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     color: #120723;
 }
@@ -362,6 +362,7 @@ main {
     text-align: center;
     color: #fffefd;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .image-container {
@@ -464,3 +465,51 @@ main {
     background: url(/assets/img/gallery4_583153917_Preview.jpg) no-repeat center center/cover;
 }
 /* Gallery end */
+
+/*footer*/
+footer {
+    padding: 40px 3.572vw 0;
+}
+
+.headline {
+    margin: 25px 0 20px;
+    font-family: "haboro-contrast-extended", sans-serif;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #120723;
+}
+
+.request {
+    padding-bottom: 5px;
+}
+
+.partners-button {
+    width: 160px;
+}
+
+.partners div:last-child {
+    width: 100%;
+    height: 2px;
+    background-color: #56348c;
+    margin-top: 60px ;
+}
+
+/* footer nav*/
+
+.footer-nav {
+    margin-top: 60px;
+}
+
+#footer-logo {
+    font-family: "haboro-contrast-extended", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #120723;
+    font-size: 1.75rem;
+}
+
+/* footer nav end*/
+
+
+/*footer end*/
