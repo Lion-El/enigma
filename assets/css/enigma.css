@@ -436,10 +436,31 @@ main {
 /* Gallery */
 .gallery {
     background-color: #120723;
+    padding-bottom: 240px;
 }
 
 .gallery > h1 {
     color: #fffefd;
+    margin-bottom: 160px;
 }
 
+.gallery-container div:nth-child(1) {
+    height: 550px;
+    background: url(/assets/img/gallery1_597927357.jpg) no-repeat center center/cover;
+}
+
+.gallery-container div:nth-child(2) {
+    height: 450px;
+    background: url(/assets/img/gallery2_608115299_Preview.jpg) no-repeat center center/cover;
+}
+
+.gallery-container div:nth-child(3) {
+    height: 450px;
+    background: url(/assets/img/gallery3_623375414_Preview.jpg) no-repeat center center/cover;
+}
+
+.gallery-container div:nth-child(4) {
+    height: 450px;
+    background: url(/assets/img/gallery4_583153917_Preview.jpg) no-repeat center center/cover;
+}
 /* Gallery end */
