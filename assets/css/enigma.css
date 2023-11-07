@@ -31,6 +31,23 @@ header {
     align-items: center;
 }
 
+h1:first-child {
+    font-family: 'haboro-contrast-extended', sans-serif;
+    color: #120723;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    font-size: 2.25;
+}
+
+h2:first-child {
+    font-family: 'nexa-rust-sans-black-2', sans-serif;
+    color: #56348c;
+    font-size: 1.0625rem;
+    margin-top: 40px;
+}
+
 li {
     list-style: none;
 }
@@ -46,10 +63,7 @@ input[type=checkbox] {
 /* Generic list styles end */
   
 #logo {
-    font-family: "haboro-contrast-extended", sans-serif;
     font-size: 1.75rem;
-    font-weight: bold;
-    font-style: italic;
     color: #fffefd;
 }
 
@@ -70,7 +84,7 @@ input[type=checkbox] {
 .line {
     width: 40px;
     height: 2px;
-    margin: 5px 0;
+    margin: 6px 0;
     background-color: #fffefd;
     transform: translateY(0);
     opacity: 1;
@@ -167,7 +181,7 @@ input[type=checkbox] {
     color: #fffefd;
 }
 
-/* universal sub nav and menu position and animation */
+/* universal sub nav and menu position with animation */
 .events-navigation {
     position: absolute;
     z-index: 98;
@@ -180,6 +194,7 @@ input[type=checkbox] {
 
 .gallery-navigation {
     position: absolute;
+    z-index: 97;
     width: 100%;
     top: 188px;
     background-color: #120723;
@@ -223,11 +238,10 @@ input[type=checkbox] {
     font-size: 1rem;
     color: #7d788a;
 }
-
 /* header end */
 
-/* main */
 
+/* main */
 /* hero section */
 main {
     margin-top: 13vh;
@@ -258,6 +272,8 @@ main {
     font-size: 1.25rem;
     font-weight: 600;
     align-self: auto;
+    z-index: 96;
+    animation: anim 2s 1s backwards;
 }
 
 .banner p:nth-child(2) {
@@ -267,6 +283,8 @@ main {
     font-style: italic;
     font-size: 2.25rem;
     font-weight: bold;
+    z-index: 95;
+    animation: anim 2s 2s backwards;
 }
 
 .banner p:nth-child(3) {
@@ -276,6 +294,8 @@ main {
     font-style: italic;
     font-size: 2.25rem;
     font-weight: bold;
+    z-index: 94;
+    animation: anim 2s 2s backwards;
 }
 
 .banner p:nth-child(4) {
@@ -283,6 +303,8 @@ main {
     left: 20px;
     font-size: 1.25rem;
     font-weight: 400;
+    z-index: 93;
+    animation: anim 2s 3s backwards;
 }
 
 .banner p:last-child {
@@ -290,5 +312,73 @@ main {
     left: 25px;
     font-size: 1.25rem;
     font-weight: 400;
+    z-index: 92;
+    animation: anim 2s 3s backwards;
 }
 /* hero section end */
+/*the mission section */
+
+.the-mission {
+    padding: 0 3.572vw;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mission-container h2 {
+    line-height: 20px;
+    text-align: center;
+}
+
+.mission-container p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #120723;
+}
+
+.mission-button {
+    height: 25px;
+    padding: 5px 45px;
+    border-radius: 12.5px;
+    background-color: #56348c;
+    margin: 20px 0;
+}
+
+.mission-button > p {
+    height: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fffefd;
+    text-transform: uppercase;
+}
+
+.image-container {
+    width: 80vw;
+    height: 503.69;
+    margin: 0 auto;
+}
+
+.image {
+    width: 80vw;
+    border: solid 0.5px #fffefd;
+    /* box-shadow: 0 1rem 2rem rgba(0,0,0, 0.5);   */
+}
+
+.image-container div:nth-child(2) {
+    transform: translateY(-80px);
+}
+
+.image-container div:nth-child(3) {
+    transform: translateY(-160px);
+}
+
+.mission-community {
+    margin-top: -160px;
+}
+/*the mission section end */
