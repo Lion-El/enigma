@@ -272,14 +272,20 @@ main {
     top: 50%;
 }
 
-.banner span:first-child {
+.banner h1::first-letter {
+    text-transform: capitalize;
+}
+
+.banner > h1 {
     display: inline-block;
     position: relative;
     left: -25px;
     font-size: 1.25rem;
     font-weight: 600;
-    align-self: auto;
+    text-transform: lowercase;
     z-index: 96;
+    color: #fffefd;
+    font-family: 'Segoe UI','Inter', sans-serif;
     animation: anim 2s 1s backwards;
 }
 
