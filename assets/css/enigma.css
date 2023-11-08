@@ -565,7 +565,7 @@ footer {
     align-items: baseline;
 }
 
-.company-info > p {
+.company-info > span {
     font-size: 0.75rem;
 }
 
@@ -575,7 +575,7 @@ footer {
 }
 
 .social-link {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .fa-brands {
