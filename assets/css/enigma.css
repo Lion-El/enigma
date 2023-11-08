@@ -38,7 +38,7 @@ h1:first-child {
     text-align: center;
     text-transform: uppercase;
     padding-top: 80px;
-    font-size: 2.25;
+    font-size: 2.25rem;
 }
 
 h2:first-of-type {
@@ -279,6 +279,7 @@ main {
 .banner > h1 {
     display: inline-block;
     position: relative;
+    padding-top: 0%;
     left: -25px;
     font-size: 1.25rem;
     font-weight: 600;
@@ -333,7 +334,7 @@ main {
 /*the mission section */
 
 .sub-hero {
-    padding: 0 3.572vw;
+    padding: 0% 3.572vw;
 }
 
 .mission-container {
@@ -358,7 +359,7 @@ main {
     padding: 2.5px 45px;
     border-radius: 12.5px;
     background-color: #56348c;
-    margin: 20px 0;
+    margin: 20px 0%;
 }
 
 .button > p {
@@ -373,8 +374,8 @@ main {
 
 .image-container {
     width: 80vw;
-    height: 503.69;
-    margin: 0 auto;
+    /* height: 503.69px; */
+    margin: 0% auto;
 }
 
 .image {
@@ -404,7 +405,7 @@ main {
 }
 
 .events > h1 {
-    margin-top: 0;
+    margin-top: 0%;
 }
 
 .events-container {
@@ -434,7 +435,7 @@ main {
 }
 
 .events-button {
-    margin-bottom: 0;
+    margin-bottom: 0%;
     padding: 2.5px 10px;
     width: 140px;
 }
@@ -474,7 +475,7 @@ main {
 
 /*footer*/
 footer {
-    padding: 40px 3.572vw 0;
+    padding: 40px 3.572vw 0%;
 }
 
 .headline {
