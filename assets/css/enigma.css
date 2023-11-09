@@ -365,7 +365,7 @@ main {
     text-align: center;
     color: #fffefd;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 .image-container {
@@ -407,7 +407,7 @@ main {
 .events-container {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -626,8 +626,16 @@ footer {
         /* font-size: 24px; */
     }
 
+    .tagline-1 {
+        margin-top: 5px;
+    }
+
     .tagline-2 {
         left: 0;
+    }
+
+    .message-1 {
+        margin-top: 5px;
     }
 
     .message-2 {
