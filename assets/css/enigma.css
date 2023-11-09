@@ -52,6 +52,10 @@ input[type=checkbox] {
     display: none;
 }
 
+img {
+    border-radius: 2px;
+}
+
 /* Generic list styles end */
 
 /* Header */
@@ -280,7 +284,8 @@ main {
     padding-top: 0%;
     left: -25px;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 1px;
     text-transform: lowercase;
     z-index: 96;
     color: #fffefd;                             /* channge general*/
@@ -364,7 +369,7 @@ main {
     text-align: center;
     color: #fffefd;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
 }
 
 .image-container {
@@ -445,21 +450,26 @@ main {
 
 .gallery-container div:nth-child(1) {
     height: 550px;
+    border-top: #fffefd solid 5px;
     background: url(https://as2.ftcdn.net/v2/jpg/05/97/92/73/1000_F_597927357_phrMP143Ha9mJLsHjnJcuam9WwHLbuQl.jpg) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
+    border-top: #fffefd solid 5px;
     background: url(https://as1.ftcdn.net/v2/jpg/06/08/11/52/1000_F_608115299_3QzP8ZRuA1kGUueImldhyW66XlNEOi56.jpg) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
+    border-top: #fffefd solid 5px;
     background: url(https://as1.ftcdn.net/v2/jpg/06/23/37/54/1000_F_623375414_9BIYTq1o6UWcoQZ1pf4VvpnpEEBEUXom.jpg) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
+    border-top: #fffefd solid 5px;
+    border-bottom: #fffefd solid 5px;
     background: url(https://as2.ftcdn.net/v2/jpg/05/83/15/39/1000_F_583153917_v2ZNOZ7Y4sNyVPgjoo2rLLfWEYgeCrN2.jpg) no-repeat center center/cover;
 }
 /* Gallery end */
@@ -698,7 +708,7 @@ footer {
         top: 80px;
         background-color: #120723;
         left: -100%;
-        padding: 0 21.488% 10px;
+        padding: 0 10.1739% 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -726,6 +736,10 @@ footer {
         padding: 0 0 0 20px;
     }
 
+    .events-menu .sub-link {
+        padding-right: 86.89px;
+    }
+
     .link, .menu-label {
         font-size: 1.25rem;
     }
@@ -744,6 +758,20 @@ footer {
     
     .gallery-sub-menu:checked ~ .navigation .gallery-menu {
         left: 0%;
+    }
+
+    /* hero section */
+    .banner h1 {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+
+    .tagline {
+        font-size: 2.75rem;
+    }
+
+    .message {
+        font-size: 1.5rem;
     }
 
     /* events section*/
