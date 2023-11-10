@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #120723;
     background-color: #ffffff;
 }
@@ -22,6 +21,8 @@ body {
 section {
     padding: 80px 10.174vw;
 }
+
+
 
 h1:first-child {
     font-family: 'haboro-contrast-extended', sans-serif;
@@ -58,7 +59,6 @@ input[type=checkbox] {
 img {
     border-radius: 2px;
 }
-
 /* Generic list styles end */
 
 /* Header */
@@ -142,6 +142,9 @@ header {
 
 /* navigation menu - animation */
 .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -193,34 +196,41 @@ header {
     color: #fffefd;
 }
 
-.events-menu {
+.sub-menu {
     position: absolute;
-    z-index: 98;
     width: 100%;
-    top: 146px;
     background-color: #120723;
-    left: -100%;
-    padding: 0 20% 100%;
+    padding: 0 20% 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.mission-menu {
+    z-index: 98;
+    top: 20px;
+    left: -100%;
+    transition: left 0.2s;
+}
+
+.events-menu {
+    z-index: 97;
+    top: 62px;
+    left: -100%;
     transition: left 0.2s;
 }
 
 .gallery-menu {
-    position: absolute;
-    z-index: 97;
+    z-index: 96;
     width: 100%;
-    top: 188px;
-    background-color: #120723;
+    top: 104px;
     left: -100%;
-    padding: 0 20% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
     transition: left 0.2s;
+}
+
+.mission-nav:checked ~ .navigation .mission-menu {
+    left: 0%;
 }
 
 .events-nav:checked ~ .navigation .events-menu {
@@ -250,6 +260,12 @@ header {
 .fa-times {
     font-size: 1rem;
     color: #7d788a;
+}
+
+.navigation > span {
+    color: #fffefd;
+    font-size: 0.75rem;
+    padding: 120px 20%;
 }
 /* header end */
 
@@ -664,6 +680,10 @@ footer {
         background-color: transparent;
     }
 
+    .navigation > span {
+        display: none;
+    }
+
     .menu {
         padding: 0 0 0 0;
         flex-direction: row;
@@ -703,7 +723,9 @@ footer {
         display: none;
     }
 
-    #events-nav-icon, #gallery-nav-icon {
+    #events-nav-icon, 
+    #gallery-nav-icon,
+    #mission-nav-icon {
         display: none;
     }
 
