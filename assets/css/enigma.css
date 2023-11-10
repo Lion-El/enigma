@@ -340,6 +340,12 @@ main {
     padding: 0% 5.357vw;
 }
 
+.mission-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .mission-container {
     display: flex;
     flex-direction: column;
@@ -384,22 +390,22 @@ main {
     /* box-shadow: 0 1rem 2rem rgba(0,0,0, 0.5);   */
 }
 
-.image-container div:nth-child(2) {
+/* .image-container div:nth-child(2) {
     transform: translateY(-80px);
 }
 
 .image-container div:nth-child(3) {
     transform: translateY(-160px);
-}
+} */
 
 .mission-community {
-    margin-top: -160px;
+    /* margin-top: -160px; */
 }
 /*the mission section end */
 
 /* events section*/
 .events {
-    margin-top: -80px;
+    /* margin-top: -80px; */
     padding: 0 5.357vw 80px;
     background-color: #e4e3e7;
 }
