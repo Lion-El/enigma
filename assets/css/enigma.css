@@ -736,7 +736,7 @@ footer {
         display: none;
     }
 
-    #nav-icon {
+    #events-nav-icon, #gallery-nav-icon {
         display: none;
     }
 
