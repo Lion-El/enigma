@@ -496,7 +496,7 @@ header {
 /* Gallery */
 .gallery {
     background-color: #120723;
-    padding: 4rem 0 15rem;
+    padding: 5rem 0 15rem;
 }
 
 .gallery > h1 {
@@ -795,7 +795,7 @@ footer {
     }
 
     .image {
-        width: 75%;
+        width: 17.8rem;
         position: absolute;
     }
 
@@ -828,10 +828,88 @@ footer {
         margin: 0 auto;
     }
 
+    /* gallery */
+    .gallery-container {
+        display: flex;
+        position: relative;
+        height: 420px;
+    }
+
+    .gallery-container div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .gallery-container div:nth-child(1) {
+        width: 384.768px;
+        height: 258.394px;
+        background-size: cover;
+        border: #fffefd solid 4px;
+        transform: translate(-305.864px, -210px)
+    }
+
+    .gallery-container div:nth-child(2) {
+        width: 278.4px;
+        height: 199.987px;
+        background-size: cover;
+        border: #fffefd solid 4px;
+        transform: translate(-244.424px, 10px);
+    }
+
+    .gallery-container div:nth-child(3) {
+        width: 223.603px;
+        height: 170.404px;
+        background-size: cover;
+        border: #fffefd solid 4px;
+        z-index: 91;
+        transform: translate(43.852px, -170px);
+    }
+
+    .gallery-container div:nth-child(4) {
+        width: 325.632px;
+        height: 215.6px;
+        background-size: cover;
+        border: #fffefd solid 4px;
+        transform: translate(-11.232px, -30px);
+    }
+
+    .spacer {
+        height: 26.25rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-   
+
+    /* .gallery-container div:nth-child(1) {
+        width: 32.06rem;
+        height: 21.53rem;
+        background-size: cover;
+        border: #fffefd solid 5px ;
+    }
+
+    .gallery-container div:nth-child(2) {
+        width: 25.646rem;
+        height: 18.422rem;
+        background-size: cover;
+        border: #fffefd solid 5px ;
+    }
+
+    .gallery-container div:nth-child(3) {
+        width: 18.633rem;
+        height: 14.2rem;
+        background-size: cover;
+        border: #fffefd solid 5px ;
+        z-index: 91;
+    }
+
+    .gallery-container div:nth-child(4) {
+        width: 27.136rem;
+        height: 17.97rem;
+        background-size: cover;
+        border: #fffefd solid 5px ;
+    }
+    */
 
 }
     
