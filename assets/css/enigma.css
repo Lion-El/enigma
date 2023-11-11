@@ -19,7 +19,7 @@ body {
 }
 
 section {
-    padding: 80px 10.174vw;
+    padding: 5rem 10.174vw;
 }
 
 
@@ -37,12 +37,12 @@ h2:first-of-type {
     font-family: 'nexa-rust-sans-black-2', sans-serif;
     color: #56348c;
     font-size: 1.0625rem;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 p, li {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     color: #120723;
     list-style: none;
@@ -63,7 +63,7 @@ img {
 
 /* Header */
 header {
-    height: 80px;
+    height: 5rem;
     background-color: #120723;
     position: fixed;
     z-index: 99;
@@ -158,7 +158,7 @@ header {
     width: 100%;
     top: 0%;
     left: 0%;
-    margin-top: 80px;
+    margin-top: 5rem;
     background-color: #120723;
     left: -100%;
     transition: left 0.2s linear;
@@ -191,7 +191,7 @@ header {
     color: #7d788a;
     font-size: 1.125rem;
     font-weight: 400;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.00625rem;
 }
 .menu-label {
     pointer-events: none;
@@ -261,7 +261,7 @@ header {
 
 .sub-menu-item {
     width: 100%;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -294,9 +294,6 @@ header {
 
 /* main */
 /* hero section */
-main {
-    margin-top: 80px;
-}
 
 .hero {
     color: #fffefd;
@@ -348,7 +345,6 @@ main {
 }
 
 .tagline-1 {
-    left: 0px;
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
     font-size: 2.25rem;
@@ -359,7 +355,6 @@ main {
 }
 
 .tagline-2 {
-    right: -6px;
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
     font-size: 2.25rem;
@@ -370,7 +365,7 @@ main {
 }
 
 .message {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03125rem;
 }
 
 .message-1 {
@@ -382,7 +377,6 @@ main {
 }
 
 .message-2 {
-    left: 80px;
     font-size: 1.25rem;
     font-weight: 400;
     z-index: 92;
@@ -394,6 +388,7 @@ main {
 /*the sub hero section */
 
 .mission-wrapper {
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
 
@@ -407,30 +402,30 @@ main {
 }
 
 .mission-container h2 {
-    line-height: 20px;
+    line-height: 1.25rem;
     text-align: center;
     margin-bottom: 10px;
 }
 
 
 .button {
-    height: 25px;
-    width: 160px;
-    line-height: 20px;
-    padding: 2.5px 0;
+    height: 1.563rem;
+    width: 10rem;
+    line-height: 1.25rem;
+    padding: 0.156rem 0;
     border-radius: 12.5px;
     background-color: #56348c;
-    margin: 20px 0%;
+    margin: 1.25rem 0%;
 }
 
 .button > p {
-    height: 1px;
-    font-size: 12px;
+    /* height: 1px; */
+    font-size: 0.8125rem;
     font-weight: bold;
     text-align: center;
     color: #fffefd;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .image-container {
@@ -444,12 +439,12 @@ main {
 }
 
 .mission-community h2 {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .mission-divide {
     width: 100%;
-    height: 2px;
+    height: 0.125rem;
     background-color: #56348c;
 }
 /*the mission section end */
@@ -472,7 +467,7 @@ main {
 
 .vert-line {
     width: 3px;
-    height: 13px;
+    height: 0.8125rem;
     margin-right: 5px;
     background-color: #120723;
 }
@@ -486,21 +481,25 @@ main {
     margin-left: 7px;
 }
 
+.art-category li {
+    padding: 0.125rem;
+}
+
 .events-button {
-    margin-bottom: 0%;
-    padding: 2.5px 10px;
+    margin-bottom: 0;
+    padding: 0.156rem 0.625rem;
 }
 /* events section end */
 
 /* Gallery */
 .gallery {
     background-color: #120723;
-    padding: 80px 0 240px;
+    padding: 4rem 0 15rem;
 }
 
 .gallery > h1 {
     color: #fffefd;
-    margin-bottom: 160px;
+    margin-bottom: 10rem;
 }
 
 .gallery-container div:nth-child(1) {
@@ -532,17 +531,17 @@ main {
 /*footer*/
 
 footer {
-    padding: 40px 10.174vw 0%;
+    padding: 2.5rem 10.174vw 0%;
 }
 
 /* partners/news */
 .partners {
-    padding: 0 0;
+    padding: 0; /* remove general styling */
 }
 
 
 .headline {
-    margin: 25px 0 20px;
+    margin: 1.563rem 0 1.25rem;
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
     font-size: 2.25rem;
@@ -551,21 +550,21 @@ footer {
 }
 
 .request {
-    padding-bottom: 5px;
+    padding-bottom: 0.313rem;
 }
 
 .footer-divide {
     width: 100%;
     height: 2px;
     background-color: #56348c;
-    margin-top: 60px ;
+    margin-top: 3.75rem ;
 }
 
 /* footer nav*/
 
 .footer-nav {
     display: flex;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 #footer-logo {
@@ -585,20 +584,20 @@ footer {
 }
 
 .contents-nav ul:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .nav-heading {
     font-weight: bold;
     font-size: 1.125rem;
     text-align: right;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.3125rem;
 }
 
 .nav-link {
     font-size: 0.9375;
-    line-height: 1.7;
+    line-height: 1.7rem;
     text-align: right;
     font-weight: 400;
 }
@@ -610,13 +609,6 @@ footer {
 /* footer nav end */
 
 /* bottom bar */
-.bottom-bar {
-    margin-bottom: 10px;
-}
-
-.footer-divide {
-    margin-bottom: 10px;
-}
 
 .company-info {
     display: flex;
@@ -625,6 +617,7 @@ footer {
 }
 
 .company-info > span {
+    margin: 0.625rem 0;
     font-size: 0.75rem;
 }
 
@@ -658,7 +651,11 @@ footer {
     }
 
     .tagline-1, .tagline-2 {
-        margin: 0 3px;
+        margin: 0 0.1875rem;
+    }
+
+    .message-1, .message-2 {
+        margin: 0.875rem;
     }
 
     /* footer */
@@ -709,13 +706,13 @@ footer {
     }
 
     .menu {
-        padding: 0 0;
+        padding: 0;
         flex-direction: row;
         justify-content: flex-end;
     }
 
     .sub-menu {
-        top: 80px;
+        top: 5rem;
         padding: 0 10.174vw 100%;
         justify-content: space-between;
     }
@@ -745,11 +742,9 @@ footer {
         z-index: 98;
     }
 
-
-
     .menu-item {
         width: auto;
-        padding: 0 0 0 50px;
+        padding-left: 3.125rem;
     }
 
     .events-menu .sub-link{
@@ -777,7 +772,7 @@ footer {
     /* hero section */
     .banner h1 {
         font-size: 1.6rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.0625rem;
     }
 
     .tagline {
@@ -788,6 +783,54 @@ footer {
         font-size: 1.5rem;
     }
 
+    /*sub hero section*/
+    .mission-wrapper {
+        flex-direction: row;
+    }
+
+    .mission-container {
+        flex: 0 1 50%;
+        align-items: flex-start;
+        height: fit-content;
+        padding-bottom: 25.488vw;
+        margin: 0 2vw 2vw 0;
+    }
+
+    .mission-health {
+        margin-bottom: 2vw;
+    }
+
+    .image-container {
+        flex: 1 1;
+        margin: 0 0 2vw;
+    }
+
+    .image {
+        width: 75%;
+        position: absolute;
+    }
+
+    .image-1 {
+        position: relative;
+        right: -25%;
+        top: 100px;
+    }
+
+    .image-2 {
+        position: relative;
+        right: 32.69%;
+        top: 40.36%;
+    }
+
+    .image-3 {
+        position: relative;
+        right: -6.54%;
+        top: 58.54%;
+    }
+
+    .mission-community h2 {
+        margin-top: 2.5rem;   /* change mobile styling */
+    }
     /* events section*/
     .events-container {
         flex-direction: row;
@@ -799,45 +842,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    /* .sub-hero h1 {
-        padding-top: 120px;
-    }
-
-    .sub-hero h2 {
-        margin: 60px 0 20px;
-    }
-
-    .sub-hero .button {
-        margin-top: 30px;
-    }
-
-    .mission-container {
-        align-items: flex-start;
-        width: 420px;
-    }
-
-    .mission-health,
-    .mission-health ~ .image-container {
-        position: relative;
-        top: 0;
-    }
-
-    .mission-community,
-    .mission-community ~ .image-container {
-        position: relative;
-        top: 0;
-    }
-
-    .button {
-        height: 28px;
-        width: 180px;
-        line-height: 23px;
-        border-radius: 14px
-    }
-
-    .image-container, .image {
-        width: 72.916vw;
-    } */
+   
 
 }
     
