@@ -775,46 +775,38 @@ footer {
     /*sub hero section*/
     .mission-wrapper {
         flex-direction: row;
+        height: 17.957em;
     }
 
     .mission-container {
         flex: 0 1 50%;
         align-items: flex-start;
-        height: fit-content;
-        padding-bottom: 25.488vw;
-        margin: 0 2vw 2vw 0;
-    }
-
-    .mission-health {
-        margin-bottom: 2vw;
     }
 
     .image-container {
+        display: flex;
         flex: 1 1;
-        margin: 0 0 2vw;
+        position: relative;
+        margin: 0;
     }
 
     .image {
-        width: 17.8rem;
+        width: 12em;
         position: absolute;
+        left: 50%;
+        top: 50%;
     }
 
     .image-1 {
-        position: relative;
-        right: -25%;
-        top: 100px;
+        /* transform: translateY(10px); */
     }
 
     .image-2 {
-        position: relative;
-        right: 32.69%;
-        top: 40.36%;
+        
     }
 
     .image-3 {
-        position: relative;
-        right: -6.54%;
-        top: 58.54%;
+        
     }
 
     .mission-community h2 {
@@ -832,7 +824,7 @@ footer {
     .gallery-container {
         display: flex;
         position: relative;
-        height: 420px;
+        height: 26.563em;
     }
 
     .gallery-container div {
@@ -842,36 +834,36 @@ footer {
     }
 
     .gallery-container div:nth-child(1) {
-        width: 384.768px;
-        height: 258.394px;
+        width: 24.048em;
+        height: 16.15em;
         background-size: cover;
         border: #fffefd solid 4px;
-        transform: translate(-305.864px, -210px)
+        transform: translate(-19.116em, -13.125em)
     }
 
     .gallery-container div:nth-child(2) {
-        width: 278.4px;
-        height: 199.987px;
+        width: 17.4em;
+        height: 12.5em;
         background-size: cover;
         border: #fffefd solid 4px;
-        transform: translate(-244.424px, 10px);
+        transform: translate(-15.276em, 0.625em);
     }
 
     .gallery-container div:nth-child(3) {
-        width: 223.603px;
-        height: 170.404px;
+        width: 13.975em;
+        height: 10.65em;
         background-size: cover;
         border: #fffefd solid 4px;
         z-index: 91;
-        transform: translate(43.852px, -170px);
+        transform: translate(2.74em, -10.625em);
     }
 
     .gallery-container div:nth-child(4) {
-        width: 325.632px;
-        height: 215.6px;
+        width: 20.352em;
+        height: 13.475em;
         background-size: cover;
         border: #fffefd solid 4px;
-        transform: translate(-11.232px, -30px);
+        transform: translate(-1.228em, -1.875em);
     }
 
     .spacer {
@@ -881,35 +873,9 @@ footer {
 
 @media screen and (min-width: 1024px) {
 
-    /* .gallery-container div:nth-child(1) {
-        width: 32.06rem;
-        height: 21.53rem;
-        background-size: cover;
-        border: #fffefd solid 5px ;
+    .gallery {
+        font-size: 20px;
     }
-
-    .gallery-container div:nth-child(2) {
-        width: 25.646rem;
-        height: 18.422rem;
-        background-size: cover;
-        border: #fffefd solid 5px ;
-    }
-
-    .gallery-container div:nth-child(3) {
-        width: 18.633rem;
-        height: 14.2rem;
-        background-size: cover;
-        border: #fffefd solid 5px ;
-        z-index: 91;
-    }
-
-    .gallery-container div:nth-child(4) {
-        width: 27.136rem;
-        height: 17.97rem;
-        background-size: cover;
-        border: #fffefd solid 5px ;
-    }
-    */
 
 }
     
