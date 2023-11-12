@@ -709,9 +709,30 @@ footer {
         justify-content: flex-end;
     }
 
+    .menu-item {
+        width: auto;
+        width: 7.5rem;
+    }
+
+    .m-label {
+        position: relative;
+        left: 2.968rem;
+    }
+
+    .e-label {
+        position: relative;
+        left: 3.489rem;
+    }
+
+    .g-label {
+        position: relative;
+        left: 3.319rem;
+    }
+    
+
     .sub-menu {
         top: 5rem;
-        padding: 0 10.174vw 100%;
+        padding: 0 3.3em 100%;
         justify-content: space-between;
     }
 
@@ -740,17 +761,12 @@ footer {
         z-index: 98;
     }
 
-    .menu-item {
-        width: auto;
-        padding-left: 3.125rem;
-    }
-
     .events-menu .sub-link{
-        padding-right: 15.222vw;
+        padding-right: 7.5rem;
     }
 
     .mission-menu .sub-link{
-        padding-right: 30.089vw;
+        padding-right: 15rem;
     }
 
     .link, .menu-label {
@@ -786,7 +802,7 @@ footer {
 
     .mission-wrapper {
         flex-direction: row;
-        height: 287.305px;
+        height: 11.971em;
         margin-bottom: 95.408px;
     }
 
@@ -802,10 +818,11 @@ footer {
         margin: 0;
     }
 
+    /* relative positioning from center */
     .image {
         width: 8.667em;
         position: absolute;
-        left: 50%;
+        left: 0;
         top: 50%;
     }
 
@@ -820,6 +837,8 @@ footer {
     .image-3 {
         transform: translate(2.917em, 4.167em);
     }
+
+    /* relative positioning end */
 
     .mission-community h2 {
         margin-top: 2.5rem;   /* change mobile styling */
@@ -838,9 +857,10 @@ footer {
     .gallery-container {
         display: flex;
         position: relative;
-        height: 26.563em;
+        height: 428.32px;
     }
 
+    /* relative positioning from center */
     .gallery-container div {
         position: absolute;
         left: 50%;
@@ -879,21 +899,32 @@ footer {
         border: #fffefd solid 4px;
         transform: translate(-1.0em, -1.875em);
     }
+    /* relative positioning from center end */
 
     .spacer {
         height: 26.25rem;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
+    .image {
+        left: 26px;
+    }
+}
 
-    .sub-hero {
-        font-size: 20px;
-        padding: 5rem 5.88em;
+@media screen and (min-width: 912px) {
+
+    .hero {
+        font-size: 28px;
+        /* padding: 5rem 5.88em; */
+    }
+
+    .mission-wrapper {
+
     }
 
     .gallery {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 
 }
