@@ -660,6 +660,10 @@ footer {
         margin: 0 0.0875rem;
     }
 
+    .sub-hero {
+        padding: 5rem 4.88em;
+    }
+
     /* footer */
     .contents-nav {
         flex-direction: row;
@@ -776,6 +780,7 @@ footer {
     .mission-wrapper {
         flex-direction: row;
         height: 17.957em;
+        margin-bottom: 5.963em;
     }
 
     .mission-container {
@@ -791,22 +796,22 @@ footer {
     }
 
     .image {
-        width: 12em;
+        width: 13em;
         position: absolute;
         left: 50%;
         top: 50%;
     }
 
     .image-1 {
-        /* transform: translateY(10px); */
+        transform: translate(6.117em, -1.875em);
     }
 
     .image-2 {
-        
+        transform: translate(-3.75em, 1.563em);
     }
 
     .image-3 {
-        
+        transform: translate(4.375em, 6.25em);
     }
 
     .mission-community h2 {
@@ -872,6 +877,11 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .sub-hero {
+        font-size: 20px;
+        padding: 5rem 5.88em;
+    }
 
     .gallery {
         font-size: 20px;
