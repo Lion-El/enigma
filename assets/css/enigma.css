@@ -1014,12 +1014,68 @@ footer {
 
 @media screen and (min-width: 1920px) {
 
+    /* general */
+    html {
+        font-size: 24px;
+    }
+
+    header, section, footer {
+        font-size: 54px;
+    }
+
+    header {
+        padding: 0 6.217em;
+    }
+
+    .sub-hero, .events {
+        padding: 5rem 6.217em;
+    }
+
+    .hero {
+        font-size: 30px;
+    }
+
+    .gallery {
+        font-size: 53px;
+    }
+
+    footer {
+        padding: 2.5rem 6.217em 0;
+    }
+
+
+    
+
+    /* navigation */
     .menu-label a {
         pointer-events: visible ;
     }
 
     .menu-label a:hover {
         color: #fffefd;  
+    }
+
+    .sub-menu {
+        padding: 0 6.217em 100vh;
+    }
+
+    /* sub-hero */
+    .mission-wrapper {
+        height: 14.5em;
+    }
+
+    .image {
+        left: -65.19px;
+    }
+
+    .events {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    /* gallery */
+    .gallery-container {
+        height: 958.32px;
     }
 
 }
