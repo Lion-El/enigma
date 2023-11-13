@@ -814,6 +814,7 @@ footer {
 
     .image-container {
         display: flex;
+        flex-direction: column;
         flex: 1 1;
         position: relative;
         margin: 0;
@@ -822,21 +823,23 @@ footer {
     /* relative positioning from center */
     .image {
         width: 8.667em;
-        position: absolute;
-        left: 0;
-        top: 50%;
+        float: inline-end;
+        /* left: 0; */
+        /* top: 0; */
     }
 
     .image-1 {
-        transform: translate(4.078em, -1.25em);
+        /* position: relative; */
+        transform: translateY(0);
     }
 
     .image-2 {
-        transform: translate(-2.5em, 1.042em);
+        /* transform: translate(-2.5em, 1.042em); */
     }
 
     .image-3 {
-        transform: translate(2.917em, 4.167em);
+        top: 0;
+        /* transform: translate(2.917em, 4.167em); */
     }
 
     /* relative positioning end */
