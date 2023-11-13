@@ -697,15 +697,15 @@ footer {
 
     /* general */
     header {
-        padding: 0 3.33333em;
+        padding: 0 3.49999em;
     }
 
     .sub-hero, .events {
-        padding: 5rem 3.33333em;
+        padding: 5rem 3.49999em;
     }
 
     footer {
-        padding: 2.5rem 3.33333em 0;
+        padding: 2.5rem 3.49999em 0;
     }
     
 
@@ -760,7 +760,7 @@ footer {
 
     .sub-menu {
         top: 5rem;
-        padding: 0 3.3em 100vh;
+        padding: 0 3.49999em 100vh;
         justify-content: space-between;
     }
 
@@ -813,6 +813,10 @@ footer {
 
     /*sub hero section*/
 
+    .sub-hero {
+        height: fit-content;
+    }
+
     .mission-wrapper {
         flex-direction: row;
         height: 11.971em;
@@ -836,20 +840,18 @@ footer {
     .image {
         width: 8.667em;
         float: inline-end;
-        /* left: 0; */
-        /* top: 50%; */
     }
 
     .image-1 {
-        transform: translateY(80px);
+        transform: translateY(120px);
     }
 
     .image-2 {
-        transform: translate(-160px, 30px);
+        transform: translate(-160px, 40px);
     }
 
     .image-3 {
-        transform: translateY(-20px);
+        transform: translate(-60px, -30px);
     }
 
     /* relative positioning end */
@@ -921,8 +923,22 @@ footer {
 }
 
 @media screen and (min-width: 820px) {
-    .image {
-        left: 26px;
+     /* general */
+     header {
+        padding: 0 4.58333em;
+    }
+
+    .sub-hero, .events {
+        padding: 5rem 4.58333em;
+    }
+
+    footer {
+        padding: 2.5rem 4.58333em 0;
+    }
+
+    /* navigation */
+    .sub-menu {
+        padding: 0 4.58333em 100vh;
     }
 }
 
@@ -930,20 +946,20 @@ footer {
 
     /* general */
     header {
-        padding: 0 5.217em;
+        padding: 0 5.66666em;
     }
 
     .sub-hero, .events {
-        padding: 5rem 5.217em;
+        padding: 5rem 5.66666em;
     }
 
     footer {
-        padding: 2.5rem 5.217em 0;
+        padding: 2.5rem 5.66666em 0;
     }
 
     /* navigation */
     .sub-menu {
-        padding: 0 5.217em 100vh;
+        padding: 0 5.66666em 100vh;
     }
         
     /* hero */
@@ -968,22 +984,58 @@ footer {
 
     /* general */
     header, section, footer {
-        font-size: 27px;
+        font-size: 28px;
     }
 
     .hero {
         font-size: 24px;
     }
+
+    header {
+        padding: 0 5.07143em;
+    }
+
+    .sub-hero, .events {
+        padding: 5rem 5.07143em;
+    }
+
+    footer {
+        padding: 2.5rem 5.07143em 0;
+    }
+
+    /* navigation */
+    .sub-menu {
+        padding: 0 5.07143em 100vh;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
+
+    /* general styling */
+    header {
+        padding: 0 5.27779em;
+    }
+
+    .sub-hero, .events {
+        padding: 5rem 5.27779em;
+    }
+
+    footer {
+        padding: 2.5rem 5.27779em 0;
+    }
+
+    /* navigation */
+    .sub-menu {
+        padding: 0 5.27779em 100vh;
+    }
 
     html {
         font-size: 20px;
     }
     
     header, section, footer {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     .hero {
@@ -991,17 +1043,26 @@ footer {
     }
 
     /* sub-hero */
-    .image {
-        left: 65.19px;
+    .sub-hero {
+
+        .image-1 {
+            transform: translateY(120px);
+        }
+    
+        .image-2 {
+            transform: translate(-160px, 0px);
+        }
+    
+        .image-3 {
+            transform: translate(-60px, -70px);
+        }
     }
+    
 }
 
 @media screen and (min-width: 1440px) {
 
     /* general */
-    header, section, footer {
-        font-size: 36px;
-    }
 
     header {
         padding: 0 6.66666em;
@@ -1021,7 +1082,7 @@ footer {
 
     /* navigation */
     .sub-menu {
-        padding: 0 5.417 100vh;
+        padding: 0 6.66666em 100vh;
     }
 }
 
@@ -1059,7 +1120,7 @@ footer {
     }
 
     .sub-menu {
-        padding: 0 6.217em 100vh;
+        padding: 0 6.66666em 100vh;
     }
 
     /* hero */
@@ -1085,6 +1146,21 @@ footer {
     .events {
         padding-top: 10rem;
         padding-bottom: 10rem;
+    }
+
+    .sub-hero {
+
+        .image-1 {
+            transform: translateY(120px);
+        }
+    
+        .image-2 {
+            transform: translate(-220px, 0px);
+        }
+    
+        .image-3 {
+            transform: translate(-60px, -70px);
+        }
     }
 
     /* gallery */
