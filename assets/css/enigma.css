@@ -663,6 +663,18 @@ footer {
     header, section, footer {
         font-size: 24px;
     }
+
+    header {
+        padding: 0 1.875em;
+    }
+
+    .section {
+        padding: 5rem 1.875em;
+    }
+
+    footer {
+        padding: 2.5rem 1.875em 0;
+    }
     
     /* footer */
     .contents-nav {
@@ -685,15 +697,15 @@ footer {
 
     /* general */
     header {
-        padding: 0 3.3em;
+        padding: 0 3.33333em;
     }
 
     .sub-hero, .events {
-        padding: 5rem 3.3em;
+        padding: 5rem 3.33333em;
     }
 
     footer {
-        padding: 2.5rem 3.3em 0;
+        padding: 2.5rem 3.33333em 0;
     }
     
 
@@ -814,6 +826,7 @@ footer {
 
     .image-container {
         display: flex;
+        flex-direction: column;
         flex: 1 1;
         position: relative;
         margin: 0;
@@ -822,21 +835,21 @@ footer {
     /* relative positioning from center */
     .image {
         width: 8.667em;
-        position: absolute;
-        left: 0;
-        top: 50%;
+        float: inline-end;
+        /* left: 0; */
+        /* top: 50%; */
     }
 
     .image-1 {
-        transform: translate(4.078em, -1.25em);
+        transform: translateY(80px);
     }
 
     .image-2 {
-        transform: translate(-2.5em, 1.042em);
+        transform: translate(-160px, 30px);
     }
 
     .image-3 {
-        transform: translate(2.917em, 4.167em);
+        transform: translateY(-20px);
     }
 
     /* relative positioning end */
@@ -991,15 +1004,15 @@ footer {
     }
 
     header {
-        padding: 0 5.417em;
+        padding: 0 6.66666em;
     }
 
     .sub-hero, .events {
-        padding: 5rem 5.417em;
+        padding: 5rem 6.66666em;
     }
 
     footer {
-        padding: 2.5rem 5.417em 0;
+        padding: 2.5rem 6.66666em 0;
     }
 
     .hero {
@@ -1014,7 +1027,7 @@ footer {
 
 @media screen and (min-width: 1920px) {
 
-    /* general */
+    /* general styles */
     html {
         font-size: 24px;
     }
@@ -1024,27 +1037,17 @@ footer {
     }
 
     header {
-        padding: 0 6.217em;
+        padding: 0 6.66666em;
     }
 
     .sub-hero, .events {
-        padding: 5rem 6.217em;
-    }
-
-    .hero {
-        font-size: 30px;
-    }
-
-    .gallery {
-        font-size: 53px;
+        padding: 5rem 6.66666em;
     }
 
     footer {
-        padding: 2.5rem 6.217em 0;
+        padding: 2.5rem 6.66666em 0;
     }
 
-
-    
 
     /* navigation */
     .menu-label a {
@@ -1058,6 +1061,17 @@ footer {
     .sub-menu {
         padding: 0 6.217em 100vh;
     }
+
+    /* hero */
+    .hero {
+        font-size: 30px;
+    }
+
+    /* gallery */
+    .gallery {
+        font-size: 53px;
+    }
+    /* general styles end*/
 
     /* sub-hero */
     .mission-wrapper {
