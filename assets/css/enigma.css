@@ -44,9 +44,9 @@ p, li {
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
-    color: #120723;
+    color: #484848;
     list-style: none;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 
 a {
@@ -409,17 +409,17 @@ header {
     height: 1.563rem;
     width: 10rem;
     line-height: 1.25rem;
-    padding: 0.156rem 0;
-    border-radius: 12.5px;
+    padding: 0.08125rem 0;
+    border-radius: 0.78125rem;
     background-color: #56348c;
     margin: 1.25rem 0%;
 }
 
 .button > p {
-    /* height: 1px; */
     font-size: 0.8125rem;
     font-weight: bold;
     text-align: center;
+    /* vertical-align: middle; */
     color: #fffefd;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
@@ -594,6 +594,7 @@ footer {
     text-align: right;
     margin-top: 0.625rem;
     margin-bottom: 0.3125rem;
+    color: #120723;
 }
 
 .nav-link {
@@ -604,7 +605,7 @@ footer {
 }
 
 .contents-nav a {
-    color: #120723;
+    color: #484848;
 }
 
 /* footer nav end */
@@ -644,11 +645,19 @@ footer {
     header, section, footer {
         font-size: 20px;
     }
+
+    .hero {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 390px) {
     header, section, footer {
         font-size: 22px;
+    }
+
+    .hero {
+        font-size: 18px;
     }
 }
 
@@ -656,12 +665,20 @@ footer {
     header, section, footer {
         font-size: 23px;
     }
+
+    .hero {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 540px) {
     /* general */
     header, section, footer {
         font-size: 24px;
+    }
+
+    .hero {
+        font-size: 20px;
     }
 
     header {
@@ -819,8 +836,7 @@ footer {
 
     .mission-wrapper {
         flex-direction: row;
-        height: 11.971em;
-        margin-bottom: 95.408px;
+        height: 16.133em;
     }
 
     .mission-container {
@@ -834,6 +850,7 @@ footer {
         flex: 1 1;
         position: relative;
         margin: 0;
+        /* height: 245px; */
     }
 
     /* relative positioning from center */
@@ -861,6 +878,11 @@ footer {
     }
     /* events section*/
 
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
     .events-container {
         flex-direction: row;
         justify-content: space-between;
@@ -873,7 +895,7 @@ footer {
     .gallery-container {
         display: flex;
         position: relative;
-        height: 428.32px;
+        height: 17.85em;
     }
 
     /* relative positioning from center */
@@ -940,6 +962,12 @@ footer {
     .sub-menu {
         padding: 0 4.58333em 100vh;
     }
+
+    /*events*/
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
 }
 
 @media screen and (min-width: 912px) {
@@ -977,6 +1005,12 @@ footer {
         margin: 0 0.0875rem;
     }
 
+    /*events*/
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -1008,11 +1042,56 @@ footer {
         padding: 0 5.07143em 100vh;
     }
 
+     /* sub-hero */
+
+     .mission-wrapper {
+        height: 15.234em;
+     }
+
+     .image-1 {
+        transform: translateY(120px);
+    }
+
+    .image-2 {
+        transform: translate(-180px, 20px);
+    }
+
+    .image-3 {
+        transform: translate(-60px, -60px);
+    }
+
+    /*events*/
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
 
+    /* navigation */
+    .menu-label a {
+        pointer-events: visible ;
+    }
+
+    .menu-label a:hover {
+        color: #fffefd;  
+    }
+
     /* general styling */
+    html {
+        font-size: 18px
+    }
+    
+    header, section, footer {
+        font-size: 36px;
+    }
+
+    .hero {
+        font-size: 24px;
+    }
+
     header {
         padding: 0 5.27779em;
     }
@@ -1030,32 +1109,27 @@ footer {
         padding: 0 5.27779em 100vh;
     }
 
-    html {
-        font-size: 20px;
-    }
-    
-    header, section, footer {
-        font-size: 36px;
-    }
-
-    .hero {
-        font-size: 24px;
-    }
-
     /* sub-hero */
-    .sub-hero {
+    .mission-wrapper {
+        height: 14.592em;
+    }
 
-        .image-1 {
-            transform: translateY(120px);
-        }
-    
-        .image-2 {
-            transform: translate(-160px, 0px);
-        }
-    
-        .image-3 {
-            transform: translate(-60px, -70px);
-        }
+    .image-1 {
+        transform: translateY(120px);
+    }
+
+    .image-2 {
+        transform: translate(-220px, 0px);
+    }
+
+    .image-3 {
+        transform: translate(-60px, -100px);
+    }
+
+    /*events*/
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
     }
     
 }
@@ -1063,6 +1137,10 @@ footer {
 @media screen and (min-width: 1440px) {
 
     /* general */
+
+    header, section, footer {
+        font-size: 40px;
+    }
 
     header {
         padding: 0 6.66666em;
@@ -1084,13 +1162,37 @@ footer {
     .sub-menu {
         padding: 0 6.66666em 100vh;
     }
+
+    /*sub hero */
+
+    .mission-wrapper {
+        height: 14.8672em;
+    }
+
+    .image-1 {
+        transform: translateY(160px);
+    }
+
+    .image-2 {
+        transform: translate(-220px, 20px);
+    }
+
+    .image-3 {
+        transform: translate(-60px, -100px);
+    }
+
+    /*events*/
+    .events {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
 
     /* general styles */
     html {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     header, section, footer {
@@ -1136,36 +1238,25 @@ footer {
 
     /* sub-hero */
     .mission-wrapper {
-        height: 14.5em;
+        height: 14.0274em;
     }
 
-    .image {
-        left: -65.19px;
-    }
-
+    /*events */
     .events {
         padding-top: 10rem;
         padding-bottom: 10rem;
     }
 
-    .sub-hero {
-
-        .image-1 {
-            transform: translateY(120px);
-        }
-    
-        .image-2 {
-            transform: translate(-220px, 0px);
-        }
-    
-        .image-3 {
-            transform: translate(-60px, -70px);
-        }
+    .image-1 {
+        transform: translateY(160px);
     }
 
-    /* gallery */
-    .gallery-container {
-        height: 958.32px;
+    .image-2 {
+        transform: translate(-260px, -30px);
+    }
+
+    .image-3 {
+        transform: translate(-60px, -180px);
     }
 
 }

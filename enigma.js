@@ -1,0 +1,1 @@
+const subMenuLink = document.querySelector('.sub-menu-link');
