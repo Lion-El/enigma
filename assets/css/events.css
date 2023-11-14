@@ -38,6 +38,7 @@ h2:first-of-type {
     color: #56348c;
     font-size: 1.0625rem;
     margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 p, li {
@@ -61,21 +62,20 @@ img {
     border-radius: 2px;
 }
 
-.button {
+.events-button {
     height: 1.563rem;
     width: 10rem;
     line-height: 1.25rem;
-    padding: 0.08125rem 0;
+    padding: 0.08125rem auto;
     border-radius: 0.78125rem;
-    background-color: #56348c;
-    margin: 1.25rem 0%;
+    background-color: #484848;
+    margin: 1.25rem 50%;
 }
 
-.button > p {
+.events-button > p {
     font-size: 0.8125rem;
     font-weight: bold;
     text-align: center;
-    /* vertical-align: middle; */
     color: #fffefd;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
@@ -311,217 +311,182 @@ header {
 
 
 /* main */
-/* hero section */
+/* our story section */
 
-.hero {
-    color: #fffefd;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
-    url(/assets/img/adobe-stock-576195150.jpg) no-repeat center/cover;
-    background-position-y: 5rem;
+.our-story {
+    padding-top: 10rem;
+    padding-bottom: 2.5rem;
 }
 
-.banner {
-    position: relative;
+.our-story-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: fit-content;
-    margin: 0 auto;
-    top: 40%;
+    /* position: relative; */
 }
 
-.banner h1::first-letter {
-    text-transform: capitalize; /* change general styling */
-}
-
-.banner > h1 {
-    left: -25px;
-    font-size: 1.25em;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: lowercase;
-    z-index: 96;
-    color: #fffefd;                             /* channge general*/
-    font-family: 'Segoe UI','Inter', sans-serif;  /*     styling    */ 
-    text-align: center;                
-    animation: anim 2s 1s backwards;
-}
-
-.tagline-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.message-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.tagline-1 {
-    font-family: "haboro-contrast-extended", sans-serif;
-    font-style: italic;
-    font-size: 2.25em;
-    font-weight: bold;
-    z-index: 95;
-    text-align: center;
-    animation: anim 2s 2s backwards;
-}
-
-.tagline-2 {
-    font-family: "haboro-contrast-extended", sans-serif;
-    font-style: italic;
-    font-size: 2.25em;
-    font-weight: bold;
-    z-index: 94;
-    text-align: center;
-    animation: anim 2s 2s backwards;
-}
-
-.message {
-    letter-spacing: 0.03125rem;
-}
-
-.message-1 {
-    font-size: 1.25em;
-    font-weight: 400;
-    z-index: 93;
-    text-align: center;
-    animation: anim 2s 3s backwards;
-}
-
-.message-2 {
-    font-size: 1.25em;
-    font-weight: 400;
-    z-index: 92;
-    text-align: center;
-    animation: anim 2s 3s backwards;
-}
-/* hero section end */
-
-/*the sub hero section */
-
-.mission-wrapper {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-
-}
-
-.mission-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.mission-container h2 {
+.our-story h2 {
     line-height: 1.25rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
+    align-self: flex-start;
 }
 
-.image-container {
+.our-values-text {
+    margin: 20px auto 0;
+}
+
+.text-content {
     width: 13.938em;
-    margin: 10px auto 0;
+    height: 18.75em;
+    overflow-y: auto;
+    margin-bottom: 1.25em;
 }
 
-.image {
+/* health html */
+.text-content h4 {
+    line-height: 1.6rem;
+}
+.text-content p {
+    margin-bottom: 0.625rem;
+}
+
+/* health html  end*/
+
+.our-story-image {
+    margin: 40px auto 0;
+}
+
+.our-story-image > img {
     width: 13.938em;
-    border: solid 0.5px #120723;
 }
 
-.mission-community h2 {
-    margin-top: 5rem;
+/* our story section end */
+
+
+/* our team section */
+.our-team {
+    padding-top: 2.5rem;
 }
 
-.mission-divide {
-    width: 100%;
-    height: 0.125rem;
-    background-color: #56348c;
+.our-team-image {
+    margin: 40px auto 0;
 }
-/*the mission section end */
+
+.our-team-image > img {
+    width: 13.938em;
+    margin: 40px auto 0;
+}
+
+/* community html */
+.diversity-image {
+    margin: 20px auto 0;
+}
+
+.diversity-image > img {
+    width: 13.938em;
+    margin: 20px auto 0;
+}
+/*community htm end */
+
+/* our team section end */
+
 
 /* events section*/
-.events {
+.our-values {
     background-color: #e4e4e4;
-}
-
-.events > h1 {
-    margin-top: 0%; /* change general styling*/
-}
-
-.events-container {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.vert-line {
-    width: 3px;
-    height: 0.8125rem;
-    margin-right: 5px;
-    background-color: #120723;
-}
-
-.genre {
-    display: flex;
-    align-items: baseline;
-    padding-bottom: 0.25rem ;
-}
-
-.art-category ul {
-    margin-left: 7px;
-}
-
-.art-category li {
-    line-height: 1.3rem;
-}
-
-.events-button {
-    margin-bottom: 0;
-    padding: 0.156rem 0.625rem;
 }
 /* events section end */
 
 /* Gallery */
-.gallery {
+.the-mission {
     background-color: #120723;
-    padding: 5rem 0 15rem;
 }
 
-.gallery > h1 {
+.the-mission > h1 {
     color: #fffefd;
-    margin-bottom: 10rem;
 }
 
-.gallery-container div:nth-child(1) {
+.our-values-text {
+    width: 13.938em;
+    height: 18.75em;
+    overflow-y: auto;
+    margin-bottom: 1.25em;
+    color: #e4e3e7;
+}
+
+/*performing arts html*/
+.immersive-ex-image div:nth-child(1) {
+    height: 420px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-v1-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(2) {
+    height: 579px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-v2-317610684-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(3) {
+    height: 503px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-v3-623412046-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(4) {
+    height: 344px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-v4-644443995-preview.jpg) no-repeat center center/cover;
+}
+/* performing arts html end */
+
+/* health html */
+.art-therapy-image div:nth-child(1) {
     height: 550px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/97/92/73/1000_F_597927357_phrMP143Ha9mJLsHjnJcuam9WwHLbuQl.jpg) no-repeat center center/cover;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/art-therap-\ 1-238245385-preview.jpg) no-repeat center center/cover;
 }
 
-.gallery-container div:nth-child(2) {
-    height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/08/11/52/1000_F_608115299_3QzP8ZRuA1kGUueImldhyW66XlNEOi56.jpg) no-repeat center center/cover;
+.art-therapy-image div:nth-child(2) {
+    height: 425px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/art-therapy-2-202004568-preview.jpg) no-repeat center center/cover;
 }
 
-.gallery-container div:nth-child(3) {
-    height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/23/37/54/1000_F_623375414_9BIYTq1o6UWcoQZ1pf4VvpnpEEBEUXom.jpg) no-repeat center center/cover;
+/* health html end */
+
+/* community html*/
+
+.our-premises-image div:nth-child(1) {
+    height: 667px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/premises-592331955-preview.jpg) no-repeat center center/cover;
 }
 
-.gallery-container div:nth-child(4) {
+/* community html end */
+
+.our-values-image div:nth-child(3) {
+    height: 450px;
+    /* border-top: #fffefd solid 5px; */
+    background: url() no-repeat center center/cover;
+}
+
+.our-values-image div:nth-child(4) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/83/15/39/1000_F_583153917_v2ZNOZ7Y4sNyVPgjoo2rLLfWEYgeCrN2.jpg) no-repeat center center/cover;
+    /* border-bottom: #fffefd solid 5px; */
+    background: url() no-repeat center center/cover;
 }
 /* Gallery end */
 

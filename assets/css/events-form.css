@@ -313,179 +313,14 @@ header {
 /* main */
 /* hero section */
 
-.hero {
-    color: #fffefd;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
-    url(/assets/img/adobe-stock-576195150.jpg) no-repeat center/cover;
-    background-position-y: 5rem;
-}
-
-.banner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-    margin: 0 auto;
-    top: 40%;
-}
-
-.banner h1::first-letter {
-    text-transform: capitalize; /* change general styling */
-}
-
-.banner > h1 {
-    left: -25px;
-    font-size: 1.25em;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: lowercase;
-    z-index: 96;
-    color: #fffefd;                             /* channge general*/
-    font-family: 'Segoe UI','Inter', sans-serif;  /*     styling    */ 
-    text-align: center;                
-    animation: anim 2s 1s backwards;
-}
-
-.tagline-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.message-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.tagline-1 {
-    font-family: "haboro-contrast-extended", sans-serif;
-    font-style: italic;
-    font-size: 2.25em;
-    font-weight: bold;
-    z-index: 95;
-    text-align: center;
-    animation: anim 2s 2s backwards;
-}
-
-.tagline-2 {
-    font-family: "haboro-contrast-extended", sans-serif;
-    font-style: italic;
-    font-size: 2.25em;
-    font-weight: bold;
-    z-index: 94;
-    text-align: center;
-    animation: anim 2s 2s backwards;
-}
-
-.message {
-    letter-spacing: 0.03125rem;
-}
-
-.message-1 {
-    font-size: 1.25em;
-    font-weight: 400;
-    z-index: 93;
-    text-align: center;
-    animation: anim 2s 3s backwards;
-}
-
-.message-2 {
-    font-size: 1.25em;
-    font-weight: 400;
-    z-index: 92;
-    text-align: center;
-    animation: anim 2s 3s backwards;
-}
 /* hero section end */
 
 /*the sub hero section */
 
-.mission-wrapper {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-
-}
-
-.mission-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.mission-container h2 {
-    line-height: 1.25rem;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.image-container {
-    width: 13.938em;
-    margin: 10px auto 0;
-}
-
-.image {
-    width: 13.938em;
-    border: solid 0.5px #120723;
-}
-
-.mission-community h2 {
-    margin-top: 5rem;
-}
-
-.mission-divide {
-    width: 100%;
-    height: 0.125rem;
-    background-color: #56348c;
-}
 /*the mission section end */
 
 /* events section*/
-.events {
-    background-color: #e4e4e4;
-}
 
-.events > h1 {
-    margin-top: 0%; /* change general styling*/
-}
-
-.events-container {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.vert-line {
-    width: 3px;
-    height: 0.8125rem;
-    margin-right: 5px;
-    background-color: #120723;
-}
-
-.genre {
-    display: flex;
-    align-items: baseline;
-    padding-bottom: 0.25rem ;
-}
-
-.art-category ul {
-    margin-left: 7px;
-}
-
-.art-category li {
-    line-height: 1.3rem;
-}
-
-.events-button {
-    margin-bottom: 0;
-    padding: 0.156rem 0.625rem;
-}
 /* events section end */
 
 /* Gallery */
@@ -502,26 +337,26 @@ header {
 .gallery-container div:nth-child(1) {
     height: 550px;
     border-top: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/97/92/73/1000_F_597927357_phrMP143Ha9mJLsHjnJcuam9WwHLbuQl.jpg) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/08/11/52/1000_F_608115299_3QzP8ZRuA1kGUueImldhyW66XlNEOi56.jpg) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/23/37/54/1000_F_623375414_9BIYTq1o6UWcoQZ1pf4VvpnpEEBEUXom.jpg) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
     border-top: #fffefd solid 5px;
     border-bottom: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/83/15/39/1000_F_583153917_v2ZNOZ7Y4sNyVPgjoo2rLLfWEYgeCrN2.jpg) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 /* Gallery end */
 

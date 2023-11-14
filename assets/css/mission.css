@@ -38,6 +38,7 @@ h2:first-of-type {
     color: #56348c;
     font-size: 1.0625rem;
     margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
 }
 
 p, li {
@@ -59,6 +60,26 @@ input[type=checkbox] {
 
 img {
     border-radius: 2px;
+}
+
+.button {
+    height: 1.563rem;
+    width: 10rem;
+    line-height: 1.25rem;
+    padding: 0.08125rem 0;
+    border-radius: 0.78125rem;
+    background-color: #56348c;
+    margin: 1.25rem 0%;
+}
+
+.button > p {
+    font-size: 0.8125rem;
+    font-weight: bold;
+    text-align: center;
+    /* vertical-align: middle; */
+    color: #fffefd;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
 }
 /* Generic list styles end */
 
@@ -291,51 +312,169 @@ header {
 
 
 /* main */
-/* hero section */
+/* our story section */
 
-/* hero section end */
+.our-story {
+    padding-top: 10rem;
+    padding-bottom: 2.5rem;
+}
 
-/*the sub hero section */
+.our-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+}
 
-/*the mission section end */
+.our-story h2 {
+    line-height: 1.25rem;
+    text-align: left;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.our-values-text {
+    margin: 20px auto 0;
+}
+
+.text-content {
+    width: 13.938em;
+    height: 18.75em;
+    overflow-y: auto;
+    margin-bottom: 1.25em;
+}
+
+/* health html */
+.text-content h4 {
+    line-height: 1.6rem;
+}
+.text-content p {
+    margin-bottom: 0.625rem;
+}
+
+/* health html  end*/
+
+.our-story-image {
+    margin: 40px auto 0;
+}
+
+.our-story-image > img {
+    width: 13.938em;
+}
+
+/* our story section end */
+
+
+/* our team section */
+.our-team {
+    padding-top: 2.5rem;
+}
+
+.our-team-image {
+    margin: 40px auto 0;
+}
+
+.our-team-image > img {
+    width: 13.938em;
+    margin: 40px auto 0;
+}
+
+/* community html */
+.diversity-image {
+    margin: 20px auto 0;
+}
+
+.diversity-image > img {
+    width: 13.938em;
+    margin: 20px auto 0;
+}
+/*community htm end */
+
+/* our team section end */
+
 
 /* events section*/
-
+.our-values {
+    background-color: #e4e4e4;
+}
 /* events section end */
 
 /* Gallery */
-.gallery {
+.the-mission {
     background-color: #120723;
-    padding: 5rem 0 15rem;
 }
 
-.gallery > h1 {
+.the-mission > h1 {
     color: #fffefd;
-    margin-bottom: 10rem;
 }
 
-.gallery-container div:nth-child(1) {
+.the-mission  h2 {
+    color: #7d788a;
+}
+
+.our-values-text {
+    width: 13.938em;
+    height: 18.75em;
+    overflow-y: auto;
+    margin-bottom: 1.25em;
+    color: #e4e3e7;
+}
+
+.our-values-image div:nth-child(1) {
     height: 550px;
-    border-top: #fffefd solid 5px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/vaules-1-213965477-preview.jpg) no-repeat center center/cover;
+}
+
+.our-values-image div:nth-child(2) {
+    height: 426px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/values-2-487248459-preview.jpg) no-repeat center center/cover;
+}
+
+/* health html */
+.art-therapy-image div:nth-child(1) {
+    height: 550px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/art-therap-\ 1-238245385-preview.jpg) no-repeat center center/cover;
+}
+
+.art-therapy-image div:nth-child(2) {
+    height: 425px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/art-therapy-2-202004568-preview.jpg) no-repeat center center/cover;
+}
+
+/* health html end */
+
+/* community html*/
+
+.our-premises-image div:nth-child(1) {
+    height: 667px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/premises-592331955-preview.jpg) no-repeat center center/cover;
+}
+
+/* community html end */
+
+.our-values-image div:nth-child(3) {
+    height: 450px;
+    /* border-top: #fffefd solid 5px; */
     background: url() no-repeat center center/cover;
 }
 
-.gallery-container div:nth-child(2) {
+.our-values-image div:nth-child(4) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    background: url() no-repeat center center/cover;
-}
-
-.gallery-container div:nth-child(3) {
-    height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url() no-repeat center center/cover;
-}
-
-.gallery-container div:nth-child(4) {
-    height: 450px;
-    border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
+    /* border-bottom: #fffefd solid 5px; */
     background: url() no-repeat center center/cover;
 }
 /* Gallery end */
