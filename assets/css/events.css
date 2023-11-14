@@ -10,12 +10,13 @@
 }
 
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: #120723;
-    background-color: #ffffff;
+    background-color: #fffefd;
 }
 
 section {
@@ -47,7 +48,7 @@ p, li {
     text-align: left;
     color: #484848;
     list-style: none;
-    line-height: 1.4rem;
+    /* line-height: 1.4rem; */
 }
 
 a {
@@ -62,23 +63,22 @@ img {
     border-radius: 2px;
 }
 
-.events-button {
+.button {
     height: 1.563rem;
     width: 10rem;
-    line-height: 1.25rem;
-    padding: 0.08125rem auto;
     border-radius: 0.78125rem;
-    background-color: #484848;
-    margin: 1.25rem 50%;
+    background-color: #56348c;
+    margin: 1.25rem auto;
 }
 
-.events-button > p {
+.button > p {
     font-size: 0.8125rem;
     font-weight: bold;
     text-align: center;
     color: #fffefd;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
+    line-height: 1.563rem;
 }
 /* Generic list styles end */
 
@@ -415,7 +415,7 @@ header {
     color: #e4e3e7;
 }
 
-/*performing arts html*/
+/*visual arts html*/
 .immersive-ex-image div:nth-child(1) {
     height: 420px;
     width: 100vw;
@@ -443,6 +443,37 @@ header {
     width: 100vw;
     /* border-top: #fffefd solid 5px; */
     background: url(/assets/img/immersive-v4-644443995-preview.jpg) no-repeat center center/cover;
+}
+/* visual arts html end */
+
+/*performing arts html*/
+.immersive-ex-image div:nth-child(1) {
+    height: 420px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-ex1-613672260-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(2) {
+    height: 579px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-ex2-597882717-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(3) {
+    height: 503px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-ex3-420523288-preview.jpg) no-repeat center center/cover;
+}
+
+.immersive-ex-image div:nth-child(4) {
+    height: 344px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-ex4-619187646-preview.jpg) no-repeat center center/cover;
 }
 /* performing arts html end */
 
@@ -501,7 +532,6 @@ footer {
     padding: 0; /* remove general styling */
 }
 
-
 .headline {
     margin: 1.563rem 0 1.25rem;
     font-family: "haboro-contrast-extended", sans-serif;
@@ -515,6 +545,10 @@ footer {
 
 .request {
     padding-bottom: 0.313rem;
+}
+
+.partners-button {
+    margin: 1.25rem 0;
 }
 
 .footer-divide {
