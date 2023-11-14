@@ -535,7 +535,6 @@ footer {
 /* partners/news */
 .partners {
     padding: 0; /* remove general styling */
-    line-height: ;
 }
 
 
@@ -1073,11 +1072,15 @@ footer {
     /* navigation */
     .menu-label a {
         pointer-events: visible ;
+        height: 27.5px;
+        padding: 31.45px 0;
     }
 
     .menu-label a:hover {
         color: #fffefd;  
     }
+
+    
 
     /* general styling */
     html {
@@ -1217,7 +1220,8 @@ footer {
         pointer-events: visible ;
     }
 
-    .menu-label a:hover {
+    .menu-label a, 
+    .sub-link:hover {
         color: #fffefd;  
     }
 
