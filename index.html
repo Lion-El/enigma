@@ -25,7 +25,7 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <img src="/assets/logo/Enigma.png" alt="company logo" id="logo">
+            <h1 id="logo">Enigma</h1>
         </a>
         <!--menu open/close trigger-->
         <input type="checkbox" id="main-navigation" class="sandwich-icon">
@@ -41,154 +41,190 @@
         </label>
         <!--menu open/close trigger end-->
         <!-- navigation -->
+        <input type="checkbox" id="mission-navigation" class="mission-nav">
         <input type="checkbox" id="events-navigation" class="events-nav">
         <input type="checkbox" id="gallery-navigation" class="gallery-nav">
         <nav class="navigation">
             <ul class="menu">
                 <li class="menu-item">
-                    <a href="" class="link about-us">About us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="" class="link health">Health</a>
-                </li>
-                <li class="menu-item">
-                    <a href="" class="link community">Community</a>
-                </li>
-                <li class="menu-item">
-                    <label for="events-navigation">
-                        <p class="menu-label events-sub-menu">Events</p>
+                    <label for="mission-navigation" class="nav-label m-label">
+                        <span class="menu-label mission-sub-menu">
+                            <a class="sub-menu-link" href="">Mission</a>
+                        </span>
                     </label>
-                    <label for="events-navigation" id="nav-icon">
+                    <label for="mission-navigation" id="mission-nav-icon">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </label>
                 </li>
-                    <!-- events sub navigation -->
-                    <ul class="events-menu sub-menu">
-                        <li class="sub-menu-item sub-menu-title">
-                            <p class="link sub-menu-label">Events</p>
-                            <label for="events-navigation">
-                                <i class="fa fa-times" aria-hidden="true"></i>
-                            </label>
-                        </li>
-                        <li class="events-menu-item sub-menu-item">
-                            <a href="" class="link sub-link">Visual arts</a>
-                        </li>
-                        <li class="events-menu-item sub-menu-item">
-                            <a href="" class="link sub-link">Literary arts</a>
-                        </li>
-                        <li class="events-menu-item sub-menu-item">
-                            <a href="" class="link sub-link">Performing arts</a>
-                        </li>
-                    </ul>
-                    <!-- events sub navigation end -->
                 <li class="menu-item">
-                    <label for="gallery-navigation">
-                        <p class="menu-label gallery-sub-menu">Gallery</p>
+                    <label for="events-navigation" class="nav-label e-label">
+                        <span class="menu-label events-sub-menu">
+                            <a class="sub-menu-link" href="">Events</a>
+                        </span>
                     </label>
-                    <label for="gallery-navigation" id="nav-icon">
+                    <label for="events-navigation" id="events-nav-icon">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </label>
                 </li>
-                    <!-- gallery sub navigation -->
-                    <ul class="gallery-menu sub-menu">
-                        <li class="sub-menu-item sub-menu-title">
-                            <p class="link sub-menu-label">Gallery</p>
-                            <label for="gallery-navigation">
-                                <i class="fa fa-times" aria-hidden="true"></i>
-                            </label>
-                        </li>
-                        <li class="sub-menu-item">
-                            <a href="" class="link sub-link">Carnival</a>
-                        </li>
-                        <li class="sub-menu-item">
-                            <a href="" class="link sub-link">Ceramics</a>
-                        </li>
-                        <li class="sub-menu-item">
-                            <a href="" class="link sub-link">Contemporary</a>
-                        </li>
-                    </ul>
-                    <!-- gallery sub navigation end -->
+                <li class="menu-item">
+                    <label for="gallery-navigation" class="nav-label g-label">
+                        <span class="menu-label gallery-sub-menu">
+                            <a class="sub-menu-link" href="">Gallery</a>
+                        </span>
+                    </label>
+                    <label for="gallery-navigation" id="gallery-nav-icon">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </label>
+                </li>
             </ul>
+            <!-- mission sub navigation -->
+            <ul class="mission-menu sub-menu">
+                <li class="sub-menu-item sub-menu-title">
+                    <p class="link sub-menu-label">Mission</p>
+                    <label for="mission-navigation">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </label>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link a-link">About us</a>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link h-link">Health</a>
+                </li>
+                <li class="sub-menu-item cp-info">
+                    <span>&copy; 2023 Enigma</span>
+                    <a href="" class="link sub-link">Community</a>
+                </li>
+            </ul>
+            <!-- mission sub navigation end --> 
+            <!-- events sub navigation -->
+            <ul class="events-menu sub-menu">
+                <li class="sub-menu-item sub-menu-title">
+                    <p class="link sub-menu-label">Events</p>
+                    <label for="events-navigation">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </label>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link">Visual arts</a>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link">Literary arts</a>
+                </li>
+                <li class="sub-menu-item cp-info">
+                    <span>&copy; 2023 Enigma</span>
+                    <a href="" class="link sub-link">Performing arts</a>
+                </li>
+            </ul>
+            <!-- events sub navigation end -->    
+            <!-- gallery sub navigation -->
+            <ul class="gallery-menu sub-menu">
+                <li class="sub-menu-item sub-menu-title">
+                    <p class="link sub-menu-label">Gallery</p>
+                    <label for="gallery-navigation">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </label>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link">Carnival</a>
+                </li>
+                <li class="sub-menu-item">
+                    <a href="" class="link sub-link">Ceramics</a>
+                </li>
+                <li class="sub-menu-item cp-info">
+                    <span>&copy; 2023 Enigma</span>
+                    <a href="" class="link sub-link">Contemporary</a>
+                </li>
                 
-                
+            </ul>
+            <span>&copy; 2023 Enigma</span>
+            <!-- gallery sub navigation end -->    
         </nav>
         <!-- navigation end -->
     </header>
     <!--header end-->
 
     <!-- Main content -->
+    <!-- hero-->
     <main>
         <section class="hero">
             <div class="banner">
                 <h1>Art Therapy</h1>
-                <span class="tagline tagline-1">Igniting the
+                <div class="tagline-container">
+                    <span class="tagline tagline-1">Igniting the</span>
                     <span class="tagline tagline-2">creative spark</span>
-                </span>
-                <span class="message message-1">Health and community
+                </div>
+                <div class="message-container">
+                    <span class="message message-1">Health and community</span>
                     <span class="message message-2">through art</span>
-                </span>
+                </div>
             </div>
         </section>
-        
+        <!-- sub hero -->
         <section class="sub-hero">
-            <h1>the mission</h1>
-            <div class="mission-container mission-health">
-                <h2>healthier lifestyle through art</h2>
-                <p>
-                    Art is a powerful tool for self-care and mental health. 
-                    Studies have shown that expression through art can help 
-                    people with depression, anxiety, and stress.
-                </p>
-                <a href="">
-                    <div class="button mission-button">
-                        <p>read more</p>
+            <h1>mission</h1>
+            <div class="mission-wrapper">
+                <div class="mission-container mission-health">
+                    <h2>healthier lifestyle</h2>
+                    <p>
+                        Art is a powerful tool for self-care and mental health. 
+                        Studies have shown that expression through art can help 
+                        people with depression, anxiety, and stress.
+                    </p>
+                    <a href="">
+                        <div class="button mission-button">
+                            <p>read more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <div class="image-1 div-image">
+                        <img src="https://as1.ftcdn.net/v2/jpg/06/30/34/10/1000_F_630341032_QJ22LTYad1NwJfDLHo01Wz4i3voKOEQT.jpg" class="image"
+                        alt="four middle age women having coffee and talking around a table">
                     </div>
-                </a>
-            </div>
-            <div class="image-container">
-                <div class="image-1">
-                    <img src="https://as1.ftcdn.net/v2/jpg/06/30/34/10/1000_F_630341032_QJ22LTYad1NwJfDLHo01Wz4i3voKOEQT.jpg" class="image"
-                    alt="four middle age women having coffee and talking around a table">
-                </div>
-                <div class="image-2">
-                    <img src="https://as1.ftcdn.net/v2/jpg/02/65/65/10/1000_F_265651095_Sank8faJAMYteBSwO69u55SP0HBDzQJH.jpg" class="image"
-                    alt="two elderly men and one elderly women are painting and laughin with the instructor">
-                </div>
-                <div class="image-3">
-                    <img src="https://as1.ftcdn.net/v2/jpg/02/65/65/12/1000_F_265651257_PsYLDUlHZXy0JOmkyPYdLGXYQUiFkCg0.jpg" class="image"
-                    alt="Six elderly women having fun laughing while making pumpkin heads">
-                </div>
-            </div>
-
-            <div class="mission-container mission-community">
-                <h2>connect communities through art</h2>
-                <p>
-                    Art has an incredible way of connecting communities and 
-                    inducing the freedom of expression. Art can play a pivotal role 
-                    in communication and social interaction.
-                </p>
-                <a href="">
-                    <div class="button mission-button">
-                        <p>read more</p>
+                    <div class="image-2 div-image">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/65/65/10/1000_F_265651095_Sank8faJAMYteBSwO69u55SP0HBDzQJH.jpg" class="image"
+                        alt="two elderly men and one elderly women are painting and laughin with the instructor">
                     </div>
-                </a>
+                    <div class="image-3 div-image">
+                        <img src="https://as1.ftcdn.net/v2/jpg/06/36/63/38/1000_F_636633800_uYy8z5LQ2LlOrRMG5AYIHkRZzVrIaOvf.jpg" class="image"
+                        alt="Six elderly women having fun laughing while making pumpkin heads">
+                    </div>
+                </div>
             </div>
-            <div class="image-container">
-                <div class="image-1">
-                    <img src="https://as2.ftcdn.net/v2/jpg/06/43/12/61/1000_F_643126130_2objCVrS2maxwGghohyuDQHgEzvdmPZQ.jpg" class="image"
-                    alt="A community group in a art gallery">
+            <div class="mission-wrapper">
+                <div class="mission-container mission-community">
+                    <h2>Build community</h2>
+                    <p>
+                        Art has an incredible way of connecting communities and 
+                        inducing the freedom of expression. Art can play a pivotal role 
+                        in communication and social interaction.
+                    </p>
+                    <a href="">
+                        <div class="button mission-button">
+                            <p>read more</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="image-2">
-                    <img src="https://as2.ftcdn.net/v2/jpg/04/87/34/07/1000_F_487340775_LYS53CkYDlNzEtDIa5di04lU5lsbuWy0.jpg" class="image"
-                    alt="four young infant girls pose for picture in thier art aprons">
-                </div>
-                <div class="image-3">
-                    <img src="https://as1.ftcdn.net/v2/jpg/06/36/63/38/1000_F_636633800_uYy8z5LQ2LlOrRMG5AYIHkRZzVrIaOvf.jpg" class="image"
-                    alt="Six elderly women having fun laughing while making pumpkin heads">
-                </div>
-            </div>    
+                <div class="image-container">
+                    <div class="image-1 div-image">
+                        <img src="https://as2.ftcdn.net/v2/jpg/04/87/34/07/1000_F_487340775_LYS53CkYDlNzEtDIa5di04lU5lsbuWy0.jpg" class="image"
+                        alt="four young infant girls pose for picture in thier art aprons">
+                    </div>
+                    <div class="image-2 div-image">
+                        <img src="https://as2.ftcdn.net/v2/jpg/06/43/12/61/1000_F_643126130_2objCVrS2maxwGghohyuDQHgEzvdmPZQ.jpg" class="image"
+                        alt="A community group in a art gallery">
+                    </div>
+                    <div class="image-3 div-image">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/65/65/12/1000_F_265651257_PsYLDUlHZXy0JOmkyPYdLGXYQUiFkCg0.jpg" class="image"
+                        alt="Two sisters having fun laughing and painting">
+                    </div>
+                </div> 
+            </div>   
         </section>
+        <!-- sub hero end-->
 
+        <!-- events section -->
         <section class="events">
             <h1>events</h1>
             <div class="events-container">
@@ -237,12 +273,15 @@
                     </ul>
                     <a href="">    
                         <div class="button events-button">
-                            <p>select an event</p>
+                            <p>select event</p>
                         </div>
                     </a>
                 </div >
             </div>
         </section>
+        <!-- events section end -->
+
+        <!--gallery-->
         <section class="gallery">
             <h1>gallery</h1>
             <div class="gallery-container">
@@ -253,21 +292,24 @@
             </div>
         </section>
     </main>
+    <!--gallery end-->
+    
     <!-- Main content end-->
+
     <!-- footer -->
     <footer>
         <section class="partners">
             <h2>our partners</h2>
-            <p class="headline">Enigma in the headlines</p>
+            <span class="headline">Enigma in the headlines</span>
             <p class="request">See what our partners have to say...</p>
             <a href="">
                 <div class="button partners-button">
                     <p>Newsletter</p>
                 </div>
             </a>
-            <div class="footer-line"></div>
+            <div class="footer-divide"></div>
         </section>
-        <section class="footer-nav">
+        <nav class="footer-nav">
             <div class="brand-name">
                 <h3 id="footer-logo">Enigma</h3>
             </div>
@@ -291,17 +333,17 @@
                 <div>
                     <ul>
                         <li class="nav-heading">Contact</li>
-                        <li class="nav-link"><a href="">Enigma LIMITED UK</a></li>
+                        <li class="nav-link"><a href="">Enigma UK</a></li>
                         <li class="nav-link"><a href="">Amberley Road</a></li>
                         <li class="nav-link"><a href="">W9 R1U</a></li>
                         <li class="nav-link"><a href="">0208 6894902</a></li>
-                        <li class="nav-link"><a href="">info@enigma.london</a></li>
+                        <li class="nav-link"><a href="">info@enigma.org</a></li>
                     </ul>
                 </div>
             </div>
-        </section>
+        </nav>
         <div class="bottom-bar">
-            <div class="footer-line"></div>
+            <div class="footer-divide"></div>
             <div class="company-info">
                 <span>&copy; 2023 Enigma</span>
                 <ul class="social-media">
@@ -327,5 +369,6 @@
     </footer>
     <!-- footer end-->
     <script src="https://kit.fontawesome.com/d1ba104d49.js" crossorigin="anonymous"></script>
+    <script src="enigma.js"></script>
 </body>
 </html>
