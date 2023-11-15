@@ -416,7 +416,7 @@ header {
 }
 
 /*visual arts html*/
-.immersive-ex-image div:nth-child(1) {
+.visual-immersive-ex-image div:nth-child(1) {
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
@@ -424,27 +424,59 @@ header {
     background: url(/assets/img/immersive-v1-preview.jpg) no-repeat center center/cover;
 }
 
-.immersive-ex-image div:nth-child(2) {
+.visual-immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
     /* border-top: #fffefd solid 5px; */
     background: url(/assets/img/immersive-v2-317610684-preview.jpg) no-repeat center center/cover;
 }
 
-.immersive-ex-image div:nth-child(3) {
+.visual-immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
     /* border-top: #fffefd solid 5px; */
     background: url(/assets/img/immersive-v3-623412046-preview.jpg) no-repeat center center/cover;
 }
 
-.immersive-ex-image div:nth-child(4) {
+.visual-immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
     /* border-top: #fffefd solid 5px; */
     background: url(/assets/img/immersive-v4-644443995-preview.jpg) no-repeat center center/cover;
 }
 /* visual arts html end */
+
+/* literary arts html*/
+.literary-immersive-ex-image div:nth-child(1) {
+    height: 420px;
+    width: 100vw;
+    margin-top: 2.5rem;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-exL1-618585827-preview.png) no-repeat center center/cover;
+}
+
+.literary-immersive-ex-image div:nth-child(2) {
+    height: 579px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-exL2-662274961-preview.png) no-repeat center center/cover;
+}
+
+.literary-immersive-ex-image div:nth-child(3) {
+    height: 503px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-exL3-590741261-preview.png) no-repeat center center/cover;
+}
+
+.literary-immersive-ex-image div:nth-child(4) {
+    height: 344px;
+    width: 100vw;
+    /* border-top: #fffefd solid 5px; */
+    background: url(/assets/img/immersive-exL4-650724042-preview.png) no-repeat center center/cover;
+}
+/* literary arts html end */
+
 
 /*performing arts html*/
 .immersive-ex-image div:nth-child(1) {

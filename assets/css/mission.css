@@ -328,7 +328,7 @@ header {
 
 .our-story h2 {
     line-height: 1.25rem;
-    text-align: left;
+    /* text-align: left; */
     margin-bottom: 10px;
     align-self: flex-start;
 }
@@ -371,16 +371,18 @@ header {
 }
 
 .our-team-image {
+    width: 13.938em;
     margin: 40px auto 0;
 }
 
 .our-team-image > img {
     width: 13.938em;
-    margin: 40px auto 0;
+    /* margin: 40px auto 0; */
 }
 
 /* community html */
 .diversity-image {
+    width: 13.938em;
     margin: 20px auto 0;
 }
 
