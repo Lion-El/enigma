@@ -17,22 +17,43 @@
     align-self: flex-start;
 }
 
+.section-2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .our-values-text {
     margin: 0.625rem auto 0;
 }
 
-.text-content {
-    width: 13.938em;
+.section-1-text {
     height: 18.75em;
     overflow-y: auto;
     margin: 0.625rem 0;
 }
 
-/* health html */
-.text-content h4 {
-    line-height: 1.6rem;
+.section-2-text {
+    height: 18.75em;
+    overflow-y: auto;
+    margin: 0.625rem 0;
 }
-.text-content p {
+
+
+
+/* health html */
+.section-2-text h4,
+.section-1-text h4 {
+    line-height: 1.6rem;
+    font-size: 16px;
+}
+.section-1-text p {
     margin-bottom: 0.625rem;
 }
 /* health html  end*/
@@ -55,7 +76,7 @@
 
 .our-team-image {
     width: 13.938em;
-    margin: 40px auto 0;
+    margin: 40px 0 0;
 }
 
 .our-team-image > img {
@@ -98,7 +119,13 @@
 }
 
 .our-values-text {
-    width: 13.938em;
+    height: 18.75em;
+    overflow-y: auto;
+    margin-bottom: 1.25em;
+    color: #e4e3e7;
+}
+
+.section-3-text {
     height: 18.75em;
     overflow-y: auto;
     margin-bottom: 1.25em;
@@ -157,3 +184,64 @@
 }
 /* Gallery end */
 /* main end */
+
+/* media queries*/
+
+@media screen and (min-width: 540px) {
+    .section-1-text,
+    .section-2-text,
+    .section-3-text {
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* general */
+
+    .our-story-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .story-text { 
+        padding-right: 1.25rem;
+    } 
+
+    .section-1-text {
+        height: 398.62px;
+        /* flex: 1 1 50%; */
+    }
+
+    .our-story-image {
+        flex: 1 1 50%;
+    }
+
+    .our-story-image > image {
+        float: right;
+    }
+
+    .our-story h2 {
+        margin-top: 2.5rem;
+    }
+
+    /* section 2 */
+    .our-team-image {
+        width: 16.64em;
+    }
+
+    .our-team-image > img {
+        width: 16.64em;
+    }
+
+    .section-2-text {
+        
+    }
+
+
+
+
+    
+}
+
+
