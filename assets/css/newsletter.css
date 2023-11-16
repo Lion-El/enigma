@@ -38,6 +38,7 @@ span {
     font-family: 'Roboto', sans-serif;
     text-transform: lowercase;
     color: #120723;
+    margin-bottom: 1.25rem;
 }
 
 #headline, #essential-headline,
@@ -47,15 +48,18 @@ span {
 }
 
 p {
-    margin: 0.625rem 0;
+    
 }
 
 .headlines p {
-    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.headlines > img {
+.headlines img {
     width: 15em;
+    align-self: center;
+    margin-bottom: 1rem ;
 }
 
 .essential {
@@ -112,28 +116,23 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-    /* body {
-     font-size: 24px;
-     padding: 0 2em;
-    } */
-
     #newspaper {
         font-size: 4rem;
     }
+    
 
-    .headlines {
-        flex-direction: row;
-        align-items: flex-start;
-        margin-top: 2.5rem;
+    .headlines img {
+        float: right;
     }
 
-    #headline {
-        margin-top: 0.3125rem;
+    .headlines p{
+        display: block;
     }
-    .headlines p {
-        height: 426.66px;
-        overflow-y: auto;
-        padding-right: 1.25rem;
+
+    .headlines img {
+        float: right;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 
     .essential {
@@ -174,8 +173,73 @@ p {
 
     .google-ceo div {
         padding-left: 1.25rem;
+        flex: 0 1 70%;
     }
 
-    
+    .google-ceo img {
+        flex: 1 0 30%;
+    }
+
+ }
+
+ @media screen and (min-width: 1024px) {
+    /* general */
+    #headline, #essential-headline, 
+    #partners-heading, #incredible-heading {
+       font-size: 1.25rem;
+    }
+
+    #newspaper {
+        font-size: 5rem;
+    }  
+
+    body {
+        font-size: 28px;
+        padding: 0 5.071em;
+    }
+
+    #partners-heading {
+        margin-bottom: 1rem;
+    }
+
+    .council-logo {
+        justify-content: space-evenly;
+        margin: 0.3125rem 0;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .google-ceo img {
+        /* align-self: center; */
+    }
+
+    @media screen and (min-width: 1440px) {
+        body {
+            padding: 0 9.643em;
+        }
+
+        .google-ceo {
+            margin-top: 2rem;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        
+        body {
+            font-size: 32px;
+            padding: 0 9.6875em;
+        }
+
+        #newspaper {
+            font-size: 4.25em;
+        }
+
+        .google-ceo {
+            margin-top: 1.25rem;
+        }
+    }
+
 
  }
