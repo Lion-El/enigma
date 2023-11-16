@@ -9,7 +9,7 @@
 }
 
 body{
-    padding: 0 1rem;
+    padding: 0 1rem 1.25em;
 }
 
 #newspaper {
@@ -195,11 +195,11 @@ p {
 
     body {
         font-size: 28px;
-        padding: 0 5.071em;
+        padding: 0 5.071em 1.25em;
     }
 
     #partners-heading {
-        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
     }
 
     .council-logo {
@@ -211,17 +211,13 @@ p {
         font-size: 14px;
     }
 
-    .google-ceo img {
-        /* align-self: center; */
-    }
-
     @media screen and (min-width: 1440px) {
         body {
-            padding: 0 9.643em;
+            padding: 0 9.643em 1.25em;
         }
 
         .google-ceo {
-            margin-top: 2rem;
+            /* margin-top: 2rem; */
         }
     }
 
@@ -229,7 +225,7 @@ p {
         
         body {
             font-size: 32px;
-            padding: 0 9.6875em;
+            padding: 0 9.6875em 1.25em;
         }
 
         #newspaper {
