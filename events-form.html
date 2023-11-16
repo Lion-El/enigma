@@ -18,6 +18,7 @@
     <!-- Font styles-->
     
     <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/enigma.css">
     <link rel="stylesheet" href="/assets/css/events-form.css">
 </head>
 
@@ -145,40 +146,119 @@
     <!--header end-->
 
     <!-- Main content -->
-    <!-- hero-->
     <main>
-        <section class="our-story">
+        <section class="events-form">
             <h1>events form</h1>
-            <div class="our-story-container"></div>
-            <div></div>
-        </section>
-        <!-- sub hero -->
-        <section class="our-ream">
-            <h1>our team</h1>
-             
-        </section>
-        <!-- sub hero end-->
-
-        <!-- events section -->
-        <section class="our-values">
-            <h1>events</h1>
+            <div class="events-form-container">
+                <div class="contact">
+                    <p>
+                        For any questions or concerns please 
+                        reach out to our team:
+                    </p>
+                    <p>
+                        0208 6894902
+                    </p>
+                    <p>
+                        info@enigma.london
+                    </p>
+                </div>
+                <div class="form">
+                    <form action="https://formdump.codeinstitute.net" method="POST">
+                        <div class="text-input">
+                            <label for="f-name">First name:</label>
+                            <input type="text" id="f-name" name="first-name">
+                        </div>
+                        <div class="text-input">
+                            <label for="l-name">Last name:</label>
+                            <input type="text" id="l-name" name="last-name">
+                        </div>
+                        <div class="text-input">
+                            <label for="h-phone">Home phone:</label>
+                            <input type="text" id="h-phone" name="home-phone">
+                        </div>
+                        <div class="text-input">
+                            <label for="m-phone">Mobile phone:</label>
+                            <input type="text" id="m-phone" name="mobile-phone">
+                        </div>
+                        <div class="text-input">
+                            <label for="email">Email address:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="event">Event type/genre:</label>
+                            <select name="event" id="event">
+                                <option value="" class="">Select an event</option>
+                                <option value="visual-art">Visual art</option>
+                                <option value="literary-art">Literary art</option>
+                                <option value="performing-art">Performing art</option>
+                            </select>
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="discipline">Discipline:</label>
+                            <select name="art-form" id="discipline">
+                                <option value="" class="">Select activity</option>
+                                <option value="conceptual-art" class="v-art">Concetptual art</option>
+                                <option value="drawing" class="v-art">Drawing</option>
+                                <option value="painting" class="v-art">Painting</option>
+                                <option value="photography" class="v-art">Photography</option>
+                                <option value="street-art" class="v-art">street art</option>
+                                <option value="drama" class="l-art">Drama</option>
+                                <option value="fiction" class="l-art">Fiction</option>
+                                <option value="non-fiction" class="l-art">Non-fiction</option>
+                                <option value="poetry" class="l-art">Poetry</option>
+                                <option value="prose" class="l-art">Prose</option>
+                                <option value="dance" class="p-art">Dance</option>
+                                <option value="music" class="p-art">Music</option>
+                                <option value="theatre-art" class="p-art">Theatre</option>
+                                <option value="film-art" class="p-art">Film</option>
+                                <option value="carnival" class="p-art">Carnival</option>
+                            </select>
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="location">Locatiion:</label>
+                            <select name="location" id="location">
+                                <option value="" class="">Choose location</option>
+                                <option value="bromley">Bromley</option>
+                                <option value="brent">Brent</option>
+                                <option value="bexley">Bexley</option>
+                                <option value="tower-hamlets">Tower Hamlets</option>
+                                <option value="kingston">Kingston</option>
+                            </select>
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="duration">Duration:</label>
+                        <select name="duration" id="duration">
+                            <option value="" class="">Select duration</option>
+                            <option value="5-days">Five days</option>
+                            <option value="7-days">Seven days</option>
+                        </select>
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="immersive">immersive:</label>
+                        <select name="immersive" id="immersive">
+                            <option value="" class="">Immersive experience</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                        </div>
+                        <div class="drop-down-list">
+                            <label for="disability">Do you have a disability?</label>
+                            <select name="disability" id="disability">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="textarea">
+                            <label for="disability">Please descibe your disability</label>
+                            <input type="textarea" id="disability" name="disablilty">
+                        </div>
+                        <input type="submit" value="submit" class="button">
+                    </form>
+                </div>
+            </div>
             
         </section>
-        <!-- events section end -->
-
-        <!--gallery-->
-        <section class="gallery">
-            <h1>gallery</h1>
-            <div class="gallery-container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </section>
     </main>
-    <!--gallery end-->
-    
     <!-- Main content end-->
 
     <!-- footer -->
@@ -187,7 +267,7 @@
             <h2>our partners</h2>
             <span class="headline">Enigma in the headlines</span>
             <p class="request">See what our partners have to say...</p>
-            <a href="">
+            <a href="newsletter.html" target="_blank">
                 <div class="button partners-button">
                     <p>Newsletter</p>
                 </div>
@@ -212,7 +292,7 @@
                         <li class="nav-link"><a href="ceramics.html">Ceramics</a></li>
                         <li class="nav-link"><a href="contemporary.html">Contemporary</a></li>
                         <li class="nav-link"><a href="events-form.html">Events form</a></li>
-                        <li class="nav-link"><a href="newsletter.html">Newsletter</a></li>
+                        <li class="nav-link"><a href="newsletter.html" target="_blank">Newsletter</a></li>
                     </ul>
                 </div>
                 <div>

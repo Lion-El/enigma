@@ -64,8 +64,7 @@ img {
 .button {
     height: 1.563rem;
     width: 10rem;
-    line-height: 1.25rem;
-    padding: 0.08125rem 0;
+
     border-radius: 0.78125rem;
     background-color: #56348c;
     margin: 1.25rem 0%;
@@ -74,8 +73,8 @@ img {
 .button > p {
     font-size: 0.8125rem;
     font-weight: bold;
+    line-height: 1.563rem;
     text-align: center;
-    /* vertical-align: middle; */
     color: #fffefd;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
@@ -484,7 +483,6 @@ header {
 
 .events-button {
     margin-bottom: 0;
-    padding: 0.156rem 0.625rem;
 }
 /* events section end */
 
