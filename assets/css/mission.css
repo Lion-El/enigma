@@ -84,14 +84,17 @@
 }
 
 /* community html */
+.diversity-image-container {
+    margin-top: 2.5rem;
+}
+
 .diversity-image {
     width: 13.938em;
-    margin: 20px auto 0;
+    margin: 1.25rem auto 0;
 }
 
 .diversity-image > img {
     width: 13.938em;
-    margin: 20px auto 0;
 }
 /*community htm end */
 
@@ -142,6 +145,7 @@
 .our-values-image div:nth-child(2) {
     height: 426px;
     width: 100vw;
+    border-bottom: #fffefd solid 1px;
     background: url(/assets/img/values-2-487248459-preview.jpg) no-repeat center center/cover;
 }
 
@@ -156,6 +160,7 @@
 .art-therapy-image div:nth-child(2) {
     height: 425px;
     width: 100vw;
+    border-bottom: #fffefd solid 1px;
     background: url(/assets/img/art-therapy-2-202004568-preview.jpg) no-repeat center center/cover;
 }
 /* health html end */
@@ -172,22 +177,16 @@
 
 /* community html end */
 
-.our-values-image div:nth-child(3) {
-    height: 450px;
-    background: url() no-repeat center center/cover;
-}
-
-.our-values-image div:nth-child(4) {
-    height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url() no-repeat center center/cover;
-}
 /* Gallery end */
 /* main end */
 
 /* media queries*/
 
 @media screen and (min-width: 540px) {
+    section {
+        padding: 5rem 1.875em;
+    }
+
     .section-1-text,
     .section-2-text,
     .section-3-text {
@@ -197,7 +196,10 @@
 
 @media screen and (min-width: 768px) {
 
-    /* general */
+    section {
+        padding: 5rem 3.499999em;
+    }
+
 
     .our-story-container {
         flex-direction: row;
@@ -210,12 +212,8 @@
 
     .section-1-text {
         height: 398.62px;
-        /* flex: 1 1 50%; */
     }
 
-    .our-story-image {
-        flex: 1 1 50%;
-    }
 
     .our-story-image > image {
         float: right;
@@ -226,6 +224,8 @@
     }
 
     /* section 2 */
+
+    /* mission */
     .our-team-image {
         width: 16.64em;
     }
@@ -234,14 +234,98 @@
         width: 16.64em;
     }
 
-    .section-2-text {
-        
+    /* community */
+    .section-2-container > div {
+        /* width: ; */
     }
 
-
-
-
+    .diversity-image-container {
+        display: flex;
+        position: relative;
+    }
     
+    .diversity-image {
+        margin: 0 0;
+    }
+    
+    .diversity-image-container div:first-child > img, 
+    .diversity-image-container div:first-child {
+        width: 15.745em;
+        height: 9.9962em;
+        float: left;
+        transform: translateX(0.625em);
+    }
+
+    .diversity-image-container div:last-child {
+        margin-top: 0.9835em;
+    }
+
+    .diversity-image-container div:last-child > img,
+    .diversity-image-container div:last-child  {
+        width: 11.625em;
+        height: 8.0291em;
+        float: right;
+        transform: translateX(-0.625em);
+    }
+
+    /* section 3 */
+
+    /* mission */
+    .our-values-image {
+        display: flex;
+        position: relative;
+        height: 10.336em;
+    }
+
+    .our-values-image div:nth-child(1) {
+        height: 10.336em;
+        width: 16.43333em;
+        background-size: cover;
+        border: #fffefd solid 1px;
+        margin-top: 0;
+        transform: translateX(2em);
+    }
+    
+    .our-values-image div:nth-child(2) {
+        height: 8.006em;
+        width: 12.51em;
+        background-size: cover;
+        border: #fffefd solid 1px;
+        margin-top: 1.165em;
+        transform: translateX(-2em);
+    }
+
+    /* health */
+    .art-therapy-image {
+        display: flex;
+        position: relative;
+        height: 10.336em;
+    }
+
+    .art-therapy-image div:nth-child(1) {
+        height: 10.336em;
+        width: 16.43333em;
+        background-size: cover;
+        border: #fffefd solid 1px;
+        margin-top: 0;
+        transform: translateX(2em);
+    }
+    
+    .art-therapy-image div:nth-child(2) {
+        height: 8.006em;
+        width: 12.51em;
+        background-size: cover;
+        border: #fffefd solid 1px;
+        margin-top: 1.165em;
+        transform: translateX(-2em);
+    }
+
+/* community */
+
+    .our-premises-image div:nth-child(1) {
+        width: 16.66666em;
+        height: 9.654em;
+    }
 }
 
 

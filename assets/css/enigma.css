@@ -846,10 +846,9 @@ footer {
         flex: 1 1;
         position: relative;
         margin: 0;
-        /* height: 245px; */
     }
 
-    /* relative positioning from center */
+    /* relative positioning from right side padding */
     .image {
         width: 8.667em;
         float: inline-end;
