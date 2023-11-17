@@ -59,11 +59,12 @@
 /* health html  end*/
 
 .our-story-image {
+    width: 13.938em;
     margin: 40px auto 0;
 }
 
 .our-story-image > img {
-    width: 13.938em;
+    width: 100%;
 }
 
 /* our story section end */
@@ -211,12 +212,13 @@
     } 
 
     .section-1-text {
-        height: 398.62px;
+        flex: 0 1 50%;
+        height: 22.431rem;
     }
 
 
-    .our-story-image > image {
-        float: right;
+    .our-story-image {
+        flex: 1 0 50%;
     }
 
     .our-story h2 {
@@ -329,3 +331,35 @@
 }
 
 
+@media screen and (min-width: 912px) {
+    section {
+        padding: 5rem 5.66666em;
+    }
+
+    .section-1-text {
+        height: 24.051rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        padding: 5rem 5.07143em;
+    }
+
+    .section-1-text {
+        height: 28.101rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section {
+        padding: 5rem 6.66666em;
+    }
+
+    .section-1-text {
+        height: 30.9811rem;
+    }
+
+}
+
+    
