@@ -1,6 +1,6 @@
 /* main */
 .events-form {
-    padding-top: 10rem;
+    padding: 7rem 1.78rem 0;
 }
 
 .events-form-container {
@@ -14,6 +14,7 @@
 }
 
 .contact p {
+    margin-top: 1rem;
     margin-bottom: 0.625rem;
 }
 
@@ -60,7 +61,7 @@ input, select, option {
 form > input:last-child {
     height: 1.875rem;
     width: 70%;
-    margin: 0.625rem 15% 0.25rem;
+    margin: 1.25rem 15% 0.25rem;
     border-radius: 0.9375rem;
     font-size: 0.8125rem;
     font-weight: bold;
@@ -73,3 +74,77 @@ form > input:last-child {
 }
 
 /* main end*/
+
+/* footer */
+footer { 
+    padding: 0 1.78rem 0;
+}
+
+hr {
+    border: #56348c solid 1px;
+    margin-top: 3.75rem;
+}
+
+.partners h2 {
+    margin-top: 3.75rem;
+}
+
+/* footer end */
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+
+    .events-form {
+        padding: 7rem 3.49999em 0;
+    }
+
+    .events-form-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .contact {
+        padding: 0 1.25em 0 0;
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 45%;
+
+    }
+
+    .events-form-container h1 {
+        margin: 1.25rem 0;
+        align-self: flex-start;
+        font-size: 28px
+    }
+
+    .form {
+        flex: 0 1 55%;
+    }
+}
+
+@media screen and (min-width: 820px) {
+
+    .events-form {
+        padding: 7rem 4.58333em 0;
+    }
+}
+
+@media screen and (min-width: 912px) {
+
+    .events-form {
+        padding: 7rem 5.66666em 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    section {
+        /* font-size: 26px; */
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .events-form {
+        padding: 7rem 6.66666em;
+    }
+}

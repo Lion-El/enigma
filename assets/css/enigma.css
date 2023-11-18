@@ -1006,6 +1006,11 @@ footer {
         padding-bottom: 8rem;
     }
 
+    /* gallery */
+    .gallery {
+        font-size: 25.4px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -1020,21 +1025,9 @@ footer {
         font-size: 24px;
     }
 
-    header {
-        padding: 0 5.07143em;
-    }
-
-    .sub-hero, .events {
-        padding: 5rem 5.07143em;
-    }
-
-    footer {
-        padding: 2.5rem 5.07143em 0;
-    }
-
     /* navigation */
     .sub-menu {
-        padding: 0 5.07143em 100vh;
+        padding: 0 5.66666 100vh;
     }
 
      /* sub-hero */
@@ -1059,6 +1052,11 @@ footer {
     .events {
         padding-top: 8rem;
         padding-bottom: 8rem;
+    }
+
+    /* gallery */
+    .gallery {
+        font-size: 28px;
     }
 
 }
@@ -1091,7 +1089,7 @@ footer {
         font-size: 24px;
     }
 
-    header {
+    /* header {
         padding: 0 5.27779em;
     }
 
@@ -1101,7 +1099,7 @@ footer {
 
     footer {
         padding: 2.5rem 5.27779em 0;
-    }
+    } */
 
     /* navigation */
     .sub-menu {
@@ -1129,6 +1127,11 @@ footer {
     .events {
         padding-top: 8rem;
         padding-bottom: 8rem;
+    }
+
+    /* gallery */
+    .gallery {
+        font-size: 34.5px;
     }
     
 }
@@ -1184,6 +1187,11 @@ footer {
     .events {
         padding-top: 8rem;
         padding-bottom: 8rem;
+    }
+
+    /* gallery */
+    .gallery {
+        font-size: 35.75px;
     }
 }
 
@@ -1257,6 +1265,11 @@ footer {
 
     .image-3 {
         transform: translate(-60px, -180px);
+    }
+
+    /* gallery */
+    .gallery {
+        font-size: 47.5px;
     }
 
 }

@@ -226,11 +226,6 @@
         height: 18.416em;
     }
 
-    /* .our-story > div:nth-child(2) {
-        margin-top: 2rem;
-    } */
-
-
     .our-story-container {
         flex-direction: row;
         align-items: flex-start;
@@ -266,6 +261,7 @@
         display: flex;
         width: 100%;
         height: 21.865em;
+        font-size: 24.8px;
     }
 
     .image {
@@ -309,15 +305,20 @@
     section {
         padding: 5rem 5.66666em;
     }
+
+    #immersive-img-container {
+        font-size: 26.4px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    section {
-        padding: 5rem 5.0714em;
-    }
 
     .text-content {
         height: 21em;
+    }
+
+    #immersive-img-container {
+        font-size: 29.2px;
     }
 }
 
@@ -326,6 +327,10 @@
     .text-content {
         height: 23em;
     }
+    
+    #immersive-img-container {
+        font-size: 36px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -333,7 +338,7 @@
         padding: 5rem 6.66666em;
     }
 
-    .the-mission {
+    #immersive-img-container {
         font-size: 37.5px;
     }
 }
@@ -341,6 +346,10 @@
 @media screen and (min-width: 1920px) {
 
     .the-mission {
+        font-size: 49.5px;
+    }
+
+    #immersive-img-container {
         font-size: 49.5px;
     }
 }

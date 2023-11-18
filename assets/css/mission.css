@@ -237,9 +237,6 @@
     }
 
     /* community */
-    .section-2-container > div {
-        /* width: ; */
-    }
 
     .diversity-image-container {
         display: flex;
@@ -273,6 +270,10 @@
     /* section 3 */
 
     /* mission */
+    .our-values-image ,.art-therapy-image {
+        margin-top: 2.5rem;
+    }
+
     .our-values-image {
         display: flex;
         position: relative;
@@ -322,14 +323,24 @@
         transform: translateX(-2em);
     }
 
-/* community */
+    /* community */
 
     .our-premises-image div:nth-child(1) {
         width: 16.66666em;
         height: 9.654em;
     }
+
+    /* the mission */
+    .section-3-container div:last-child {
+        font-size: 22px;
+    }
 }
 
+@media screen and (min-width: 820px) {
+    section {
+        padding: 5rem 4.58333em;
+    }
+}
 
 @media screen and (min-width: 912px) {
     section {
@@ -341,25 +352,72 @@
     }
 }
 
+
+
 @media screen and (min-width: 1024px) {
-    section {
-        padding: 5rem 5.07143em;
-    }
 
     .section-1-text {
-        height: 28.101rem;
+        height: 26.501rem;
+    }
+
+    /* the mission */
+    .section-3-container div:last-child {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .section-1-text {
+        height: 29.001rem;
+    }
+
+    .section-3-container div:last-child {
+        font-size: 28px;
+    }
+
+    .diversity-image-container {
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1440px) {
+
     section {
         padding: 5rem 6.66666em;
     }
 
     .section-1-text {
-        height: 30.9811rem;
+        height: 30.2811rem;
+    }
+
+    .section-3-container div:last-child {
+        font-size: 34px;
     }
 
 }
 
-    
+@media screen and (min-width: 1920px) {
+
+    section {
+        padding: 5rem 6.66666em;
+    }
+
+    .section-1-text {
+        flex: 0 1 55%;
+    }
+
+
+    .our-story-image {
+        flex: 1 0 45%;
+    }
+
+    .section-3-container div:last-child {
+        font-size: 40px;
+    }
+
+    .diversity-image-container {
+        font-size: 40px;
+    }
+
+}
