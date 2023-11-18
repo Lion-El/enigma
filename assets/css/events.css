@@ -23,7 +23,7 @@
 
 .our-story {
     padding-top: 10rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 .our-story-container {
@@ -44,7 +44,7 @@
 }
 
 .text-content {
-    width: 13.938em;
+    /* width: 13.938em; */
     height: 18.75em;
     overflow-y: auto;
     margin-bottom: 1.25em;
@@ -60,12 +60,16 @@
 
 /* health html  end*/
 
+.our-story-image-container {
+    width: 13.938em;
+}
+
 .our-story-image {
     margin: 40px auto 0;
 }
 
 .our-story-image > img {
-    width: 13.938em;
+    width: 100%;
 }
 
 /* our story section end */
@@ -108,6 +112,7 @@
 /* Gallery */
 .the-mission {
     background-color: #120723;
+    padding: 5rem 0;
 }
 
 .the-mission > h1 {
@@ -203,3 +208,139 @@
     background: url(/assets/img/immersive-ex4-619187646-preview.jpg) no-repeat center center/cover;
 }
 /* performing arts html end */
+
+/* media quries */
+@media screen and (min-width: 540px) {
+    .text-content {
+        overflow-y: unset;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    section {
+        padding: 5rem 3.499999em;
+    }
+
+    .our-story > div:nth-child(2) {
+        height: 18.416em;
+    }
+
+    /* .our-story > div:nth-child(2) {
+        margin-top: 2rem;
+    } */
+
+
+    .our-story-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .story-text {
+        flex: 1 0 50%;
+        padding-right: 1.25rem;
+    }
+
+    .text-content {
+        width: 100%;
+        height: 17em;
+        overflow-y: auto;
+    }
+
+    .our-story-image-container {
+        flex: 1 1 50%;
+        display: flex;
+        position: relative;
+    }
+
+    .our-story-image-container > div:last-child {
+        width: 10em;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-5em, 3.75em);
+    }
+
+    #immersive-img-container {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 21.865em;
+    }
+
+    .image {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    #immersive-img-1 {
+        height: 7.674em;
+        width: 14.033em;
+        margin-top: 0;
+        border: #fffefd solid 0.5px;
+        transform: translate(-12.083em, -7.674em);
+    }
+    
+    #immersive-img-2 {
+        height: 10.5799em;
+        width: 9.3119em;
+        border: #fffefd solid 0.5px;
+        transform: translate(2.772em, -7.674em);
+    }
+    
+    #immersive-img-3 {
+        height: 9.1911em;
+        width: 9.3119em;
+        border: #fffefd solid 0.5px;
+        transform: translate(-12.083em, 0.708em);
+    }
+    
+    #immersive-img-4 {
+        height: 6.2857em;
+        width: 14.033em;
+        border: #fffefd solid 0.5px;
+        transform: translate(-1.9486em, 3.614em);
+    }
+
+}
+
+@media screen and (min-width: 912px) {
+    section {
+        padding: 5rem 5.66666em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        padding: 5rem 5.0714em;
+    }
+
+    .text-content {
+        height: 21em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .text-content {
+        height: 23em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section {
+        padding: 5rem 6.66666em;
+    }
+
+    .the-mission {
+        font-size: 37.5px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .the-mission {
+        font-size: 49.5px;
+    }
+}
