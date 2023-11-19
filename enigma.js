@@ -1,36 +1,35 @@
-const ulChild = document.getElementsByClassName('menu-label');
-let menuName = [];
+// const missionSubMenuLink = document.querySelector('.mission-sub-menu-link');
+// const eventsSubMenuLink = document.querySelector('.events-sub-menu-link');
+// const gallerySubMenuLink = document.querySelector('.gallery-sub-menu-link');
+// const missionSubMenu = document.querySelector('.mission-menu');
+// const eventsSubMenu = document.querySelector('.events-menu');
+// const gallerySubMenu = document.querySelector('.gallery-menu');
 
-for (let i=0; i < ulChild.length; i++) {
-    menuName.push(ulChild[i].children);
-}
+// function pointerEntry(event) {
+//     missionSubMenu.setAttribute("style", "display:block;");
+// };
+  
+// function pointerExit(event) {
+//     missionSubMenu.addEventListener('mouseover', (event) => {
+//         missionSubMenu.setAttribute("style", "display:block;");
+//     });
+//     missionSubMenu.setAttribute("style", "display:none;");
+// };
 
-const mission = menuName[0];
+// missionSubMenuLink.addEventListener('mouseover', (event) => {
+//     pointerEntry(event);
+// });
+
+// missionSubMenuLink.addEventListener('mouseout', (event) => {
+//     pointerExit(event);
+// });
+
+// missionSubMenu.addEventListener('mouseout', (event) => {
+//     pointerExit(event);
+// });
 
 
-    mission.textContent.addEventlistener('mouseover', (e) => {
-        if (e.target === 'Mission') {
-            console.log(menuName[0]);
-        } else {
-            console.log('???');
-        };
 
-        if (e.target === 'Mission') {
-            console.log(menuName[1]);
-        } else {
-            console.log('???');
-        };
-
-        if (e.target === 'Mission') {
-            console.log(menuName[2]);
-        } else {
-            console.log('???');
-        };
-    });
-
-    const array = [1, 2, 3, 'you wish you could be me!'];
-
-    array.forEach((element) => console.log(element));
 
     
  
