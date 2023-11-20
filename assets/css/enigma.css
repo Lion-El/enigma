@@ -312,7 +312,7 @@ header {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
-    url(assets/img/adobe-stock-576195150.jpg) no-repeat center/cover;
+    url(../img/adobe-stock-576195150.jpg) no-repeat center/cover;
     background-position-y: 5rem;
 }
 
@@ -554,6 +554,7 @@ footer {
     font-style: italic;
     color: #120723;
     font-size: 1.75rem;
+    margin-top: 0;
 }
 
 .contents-nav {

@@ -140,14 +140,14 @@
     height: 550px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(assets/img/vaules-1-213965477-preview.jpg) no-repeat center center/cover;
+    background: url(../img/vaules-1-213965477-preview.jpg) no-repeat center center/cover;
 }
 
 .our-values-image div:nth-child(2) {
     height: 426px;
     width: 100vw;
     border-bottom: #fffefd solid 1px;
-    background: url(assets/img/values-2-487248459-preview.jpg) no-repeat center center/cover;
+    background: url(../img/values-2-487248459-preview.jpg) no-repeat center center/cover;
 }
 
 /* health html */
@@ -155,14 +155,14 @@
     height: 550px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(assets/img/art-therap-\ 1-238245385-preview.jpg) no-repeat center center/cover;
+    background: url(../img/art-therap-\ 1-238245385-preview.jpg) no-repeat center center/cover;
 }
 
 .art-therapy-image div:nth-child(2) {
     height: 425px;
     width: 100vw;
     border-bottom: #fffefd solid 1px;
-    background: url(assets/img/art-therapy-2-202004568-preview.jpg) no-repeat center center/cover;
+    background: url(../img/art-therapy-2-202004568-preview.jpg) no-repeat center center/cover;
 }
 /* health html end */
 
@@ -173,7 +173,7 @@
     height: 667px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(assets/img/premises-592331955-preview.jpg) no-repeat center center/cover;
+    background: url(../img/premises-592331955-preview.jpg) no-repeat center center/cover;
 }
 
 /* community html end */
