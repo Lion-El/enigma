@@ -24,7 +24,7 @@ section {
 
 
 
-h1:first-child {
+h2:first-child {
     font-family: 'haboro-contrast-extended', sans-serif;
     color: #120723;
     font-weight: bold;
@@ -33,7 +33,7 @@ h1:first-child {
     font-size: 2rem;
 }
 
-h2:first-of-type {
+h3:first-of-type {
     font-family: 'nexa-rust-sans-black-2', sans-serif;
     color: #56348c;
     font-size: 1.0625rem;
@@ -211,8 +211,10 @@ header {
     font-weight: 400;
     letter-spacing: 0.00625rem;
 }
-.menu-label {
+
+.menu-label  a {
     pointer-events: none;
+    color: #7d788a;
 }
 
 .link:active {
@@ -267,11 +269,6 @@ header {
 
 .gallery-nav:checked ~ .navigation .gallery-menu {
     left: 0%;
-}
-
-.menu-label  a {
-    pointer-events: none;
-    color: #7d788a;
 }
 
 .sub-menu-item {
@@ -329,11 +326,11 @@ header {
     top: 40%;
 }
 
-.banner h1::first-letter {
+.banner h2::first-letter {
     text-transform: capitalize; /* change general styling */
 }
 
-.banner > h1 {
+.banner > h2 {
     left: -25px;
     font-size: 1.25em;
     font-weight: 500;
@@ -1045,7 +1042,7 @@ footer {
 
     /* navigation */
     .menu-label a {
-        /* pointer-events: visible ; */
+        pointer-events: visible ;
         height: 27.5px;
         padding: 31.45px 0;
     }
@@ -1227,15 +1224,6 @@ footer {
 
 
     /* navigation */
-    .menu-label a {
-        pointer-events: visible ;
-    }
-
-    .menu-label a, 
-    .sub-link:hover {
-        color: #fffefd;  
-    }
-
     .sub-menu {
         padding: 0 6.66666em 100vh;
     }

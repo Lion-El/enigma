@@ -209,6 +209,11 @@
 }
 /* performing arts html end */
 
+.the-mission img {
+    display: none;
+}
+
+
 /* media quries */
 @media screen and (min-width: 540px) {
     .text-content {

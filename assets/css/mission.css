@@ -114,11 +114,11 @@
     background-color: #120723;
 }
 
-.the-mission > h1 {
+.the-mission > h2 {
     color: #fffefd;
 }
 
-.the-mission  h2 {
+.the-mission  h3 {
     color: #7d788a;
 }
 
@@ -132,7 +132,7 @@
 .section-3-text {
     height: 18.75em;
     overflow-y: auto;
-    margin-bottom: 1.25em;
+    margin: 1.25em 0;
     color: #e4e3e7;
 }
 
@@ -177,6 +177,10 @@
 }
 
 /* community html end */
+
+.the-mission img {
+    display: none;
+}
 
 /* Gallery end */
 /* main end */

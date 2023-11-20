@@ -4,12 +4,12 @@
     padding: 10rem 0 5rem;
 }
 
-.gallery > h1 {
+.gallery > h2 {
     color: #120723;
     margin-bottom: 2.5rem;
 }
 
-.gallery > h2 {
+.gallery > h3 {
     margin-bottom: 1.25rem;
     padding-left: 1.78rem;
 }
@@ -237,6 +237,9 @@
     background: url(https://t4.ftcdn.net/jpg/06/32/90/19/240_F_632901909_UY65irOmlUjFaiiYuDkUOrrSTg0Nj1Ei.jpg) no-repeat center center/cover;
 }
 /* ceramics end */
+.gallery img {
+    display: none;
+}
 
 /* footer */
 hr {
@@ -244,7 +247,7 @@ hr {
     margin-top: 3.75rem;
 }
 
-.partners h2 {
+.partners h3 {
     margin-top: 3.75rem;
 }
 

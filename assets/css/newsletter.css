@@ -16,13 +16,14 @@ body{
     font-family: 'Robot', sans-serif;
     text-transform: lowercase;
     font-size: 1.75em;
+    text-align: center;
 }
 
 #newspaper::first-letter {
     text-transform: capitalize;
 }
 
-span {
+#newspaper span {
     text-transform: lowercase;
     color: #56348c;
 }
@@ -38,10 +39,12 @@ span {
     font-family: 'Roboto', sans-serif;
     text-transform: lowercase;
     color: #120723;
-    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.125rem;
 }
 
-#headline, #essential-headline,
+#headline span, #essential-headline span,
 #partners-heading,
 #incredible-heading:first-letter {
     text-transform: capitalize;
@@ -119,6 +122,12 @@ p {
     #newspaper {
         font-size: 4rem;
     }
+
+    #headline, #essential-headline, 
+#partners-heading, #incredible-heading {
+    font-size: 1.25rem;
+    text-align: left;
+}
     
 
     .headlines img {
@@ -183,11 +192,6 @@ p {
  }
 
  @media screen and (min-width: 1024px) {
-    /* general */
-    #headline, #essential-headline, 
-    #partners-heading, #incredible-heading {
-       font-size: 1.25rem;
-    }
 
     #newspaper {
         font-size: 5rem;
