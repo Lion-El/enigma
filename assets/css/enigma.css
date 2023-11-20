@@ -433,10 +433,6 @@ header {
     background-color: #e4e4e4;
 }
 
-.events > h1 {
-    margin-top: 0%; /* change general styling*/
-}
-
 .events-container {
     display: flex;
     flex-direction: column;
@@ -476,7 +472,7 @@ header {
     padding: 5rem 0 15rem;
 }
 
-.gallery > h1 {
+.gallery > h2 {
     color: #fffefd;
     margin-bottom: 10rem;
 }
