@@ -1045,7 +1045,7 @@ footer {
 
     /* navigation */
     .menu-label a {
-        pointer-events: visible ;
+        /* pointer-events: visible ; */
         height: 27.5px;
         padding: 31.45px 0;
     }
