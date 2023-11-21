@@ -14,8 +14,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #120723;
-    background-color: #ffffff;
+    color: #1a1a1a;
+    background-color: #fffefd;
 }
 
 section {
@@ -26,7 +26,7 @@ section {
 
 h2:first-child {
     font-family: 'haboro-contrast-extended', sans-serif;
-    color: #120723;
+    color: #1a1a1a;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ img {
 /* Header */
 header {
     height: 5rem;
-    background-color: #120723;
+    background-color: #1a1a1a;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -179,7 +179,7 @@ header {
     top: 0%;
     left: 0%;
     margin-top: 5rem;
-    background-color: #120723;
+    background-color: #1a1a1a;
     left: -100%;
     transition: left 0.2s linear;
 }
@@ -205,16 +205,10 @@ header {
 
 /* nav text/link styling */
 .link, .menu-label {
-    text-decoration: none;
     color: #7d788a;
     font-size: 1.125rem;
     font-weight: 400;
     letter-spacing: 0.00625rem;
-}
-
-.menu-label  a {
-    pointer-events: none;
-    color: #7d788a;
 }
 
 .link:active {
@@ -229,7 +223,7 @@ header {
 .sub-menu {
     position: absolute;
     width: 100%;
-    background-color: #120723;
+    background-color: #1a1a1a;
     padding: 0 20% 40%;
     display: flex;
     flex-direction: column;
@@ -285,6 +279,9 @@ header {
 
 .sub-menu-label {
     color: #fffefd;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.00625rem;
 }
 
 .fa-times {
@@ -298,7 +295,7 @@ header {
     padding: 120px 20%;
 }
 
-.sub-menu span {
+.copyright {
     display: none;
 }
 /* header end */
@@ -387,6 +384,9 @@ header {
 /* hero section end */
 
 /*the sub hero section */
+.sub-hero {
+    /* background-color: #fffefd; */
+}
 
 .mission-wrapper {
     display: flex;
@@ -414,7 +414,7 @@ header {
 
 .image {
     width: 13.938em;
-    border: solid 0.5px #120723;
+    border: solid 0.5px #1a1a1a;
 }
 
 .mission-community h2 {
@@ -444,7 +444,7 @@ header {
     width: 3px;
     height: 0.8125rem;
     margin-right: 5px;
-    background-color: #120723;
+    background-color: #1a1a1a;
 }
 
 .genre {
@@ -468,7 +468,7 @@ header {
 
 /* Gallery */
 .gallery {
-    background-color: #120723;
+    background-color: #1a1a1a;
     padding: 5rem 0 15rem;
 }
 
@@ -521,7 +521,7 @@ footer {
     font-style: italic;
     font-size: 2.25rem;
     font-weight: 900;
-    color: #120723;
+    color: #1a1a1a;
     display: inline-block;
     margin-top: 1.25rem;
 }
@@ -548,7 +548,7 @@ footer {
     font-family: "haboro-contrast-extended", sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #120723;
+    color: #1a1a1a;
     font-size: 1.75rem;
     margin-top: 0;
 }
@@ -571,7 +571,7 @@ footer {
     text-align: right;
     margin-top: 0.625rem;
     margin-bottom: 0.3125rem;
-    color: #120723;
+    color: #1a1a1a;
 }
 
 .nav-link {
@@ -610,7 +610,7 @@ footer {
 
 .fa-brands {
     font-size: 1.125rem;
-    color: #120723;
+    color: #1a1a1a;
 }
 /*bottom bar end*/
 /*footer end */
@@ -760,25 +760,22 @@ footer {
         justify-content: space-between;
     }
 
-    .sub-menu span {
+    .copyright {
         display: list-item;
-    }
-
-    .sub-menu span {
         color: #fffefd;
         font-size: 0.75rem;
     }
 
     .mission-menu {
-        z-index: 96;
+        z-index: -98;
     }
 
     .events-menu {
-        z-index: 97;
+        z-index: -97;
     }
     
     .gallery-menu {
-        z-index: 98;
+        z-index: -96;
     }
 
     .events-menu .sub-link{
@@ -900,7 +897,7 @@ footer {
         height: 7.1em;
         background-size: cover;
         border: #fffefd solid 4px;
-        z-index: 91;
+        /* z-index: 91; */
         transform: translate(1.827em, -7.083em);
     }
 
@@ -924,17 +921,16 @@ footer {
         padding: 0 4.58333em;
     }
 
+    .sub-menu {
+        padding: 0 4.58333em 100vh;
+    }
+
     .sub-hero, .events {
         padding: 5rem 4.58333em;
     }
 
     footer {
         padding: 2.5rem 4.58333em 0;
-    }
-
-    /* navigation */
-    .sub-menu {
-        padding: 0 4.58333em 100vh;
     }
 
     /*events*/
@@ -951,17 +947,16 @@ footer {
         padding: 0 5.66666em;
     }
 
+    .sub-menu {
+        padding: 0 5.66666em 100vh;
+    }
+
     .sub-hero, .events {
         padding: 5rem 5.66666em;
     }
 
     footer {
         padding: 2.5rem 5.66666em 0;
-    }
-
-    /* navigation */
-    .sub-menu {
-        padding: 0 5.66666em 100vh;
     }
         
     /* hero */
@@ -1038,46 +1033,39 @@ footer {
 @media screen and (min-width: 1280px) {
 
     /* navigation */
-    .menu-label a {
-        pointer-events: visible ;
+
+
+    .mission-menu {
+        left: -100%;
+        transition: left 0.2s linear;
+    }
+    
+    .events-menu {
+        left: -100%;
+        transition: left 0.2s linear;
+    }
+    
+    .gallery-menu {
+        left: -100%;
+        transition: left 0.2s linear;
+    }
+
+    .menu-label span {
         height: 27.5px;
         padding: 31.45px 0;
     }
 
-    .menu-label a:hover {
-        color: #fffefd;  
-    }
-
-    .sub-link:hover {
-        color: #fffefd;  
-    }
-
-    .mission-menu {
-        z-index: -98;
-        top: 5rem;
-        left: 0;
-        display: none;
-        padding-top: 5rem;
-    }
-    
-    .events-menu {
-        z-index: -97;
-        top: 5rem;
-        left: 0;
-        display: none;
-        padding-top: 5rem;
-    }
-    
-    .gallery-menu {
-        z-index: -96;
-        top: 5rem;
-        left: 0;
-        display: none;
-        padding-top: 5rem;
+    .menu-label span:hover {
+        color: #fffefd; 
+        cursor: pointer; 
     }
 
     .sub-menu-item {
         padding: 0 0;
+    }
+
+    .sub-link:hover {
+        color: #fffefd;  
     }
 
     .gallery-menu .sub-link {
@@ -1091,8 +1079,6 @@ footer {
     .mission-menu .sub-link{
         padding: 0.625rem 15rem 0.625rem 0;
     }
-
-    
 
     /* general styling */
     html {
@@ -1149,6 +1135,10 @@ footer {
         padding: 0 6.66666em;
     }
 
+    .sub-menu {
+        padding: 0 6.66666em 100vh;
+    }
+
     .sub-hero, .events {
         padding: 5rem 6.66666em;
     }
@@ -1159,11 +1149,6 @@ footer {
 
     .hero {
         font-size: 24px;
-    }
-
-    /* navigation */
-    .sub-menu {
-        padding: 0 6.66666em 100vh;
     }
 
     /*sub hero */
@@ -1217,12 +1202,6 @@ footer {
 
     footer {
         padding: 2.5rem 6.66666em 0;
-    }
-
-
-    /* navigation */
-    .sub-menu {
-        padding: 0 6.66666em 100vh;
     }
 
     /* hero */
