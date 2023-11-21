@@ -309,7 +309,7 @@ header {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
-    url(../img/adobe-stock-576195150.jpg) no-repeat center/cover;
+    url(../img/AdobeStock_576195150.webp) no-repeat center/cover;
     background-position-y: 5rem;
 }
 
@@ -479,27 +479,27 @@ header {
 
 .gallery-container div:nth-child(1) {
     height: 550px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/97/92/73/1000_F_597927357_phrMP143Ha9mJLsHjnJcuam9WwHLbuQl.jpg) no-repeat center center/cover;
+    /* border-top: #fffefd solid 5px; */
+    background: url(../img/AdobeStock_597927357.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/08/11/52/1000_F_608115299_3QzP8ZRuA1kGUueImldhyW66XlNEOi56.jpg) no-repeat center center/cover;
+    /* border-top: #fffefd solid 5px; */
+    background: url(../img/AdobeStock_608115299_Preview.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
-    border-top: #fffefd solid 5px;
-    background: url(https://as1.ftcdn.net/v2/jpg/06/23/37/54/1000_F_623375414_9BIYTq1o6UWcoQZ1pf4VvpnpEEBEUXom.jpg) no-repeat center center/cover;
+    /* border-top: #fffefd solid 5px; */
+    background: url(../img/AdobeStock_623375414_Preview.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
-    border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
-    background: url(https://as2.ftcdn.net/v2/jpg/05/83/15/39/1000_F_583153917_v2ZNOZ7Y4sNyVPgjoo2rLLfWEYgeCrN2.jpg) no-repeat center center/cover;
+    /* border-top: #fffefd solid 5px; */
+    /* border-bottom: #fffefd solid 5px; */
+    background: url(../img/AdobeStock_583153917_Preview.webp) no-repeat center center/cover;
 }
 /* Gallery end */
 
@@ -880,7 +880,7 @@ footer {
         width: 16.03em;
         height: 10.767em;
         background-size: cover;
-        border: #fffefd solid 4px;
+        /* border: #fffefd solid 4px; */
         transform: translate(-12.744em, -8.75em)
     }
 
@@ -888,7 +888,7 @@ footer {
         width: 11.6em;
         height: 8.33em;
         background-size: cover;
-        border: #fffefd solid 4px;
+        /* border: #fffefd solid 4px; */
         transform: translate(-10.184em, 0.417em);
     }
 
@@ -896,7 +896,7 @@ footer {
         width: 9.316em;
         height: 7.1em;
         background-size: cover;
-        border: #fffefd solid 4px;
+        /* border: #fffefd solid 4px; */
         /* z-index: 91; */
         transform: translate(1.827em, -7.083em);
     }
@@ -905,7 +905,7 @@ footer {
         width: 13.56em;
         height: 8.983em;
         background-size: cover;
-        border: #fffefd solid 4px;
+        /* border: #fffefd solid 4px; */
         transform: translate(-1.0em, -1.875em);
     }
     /* relative positioning from center end */
