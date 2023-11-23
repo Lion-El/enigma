@@ -479,27 +479,27 @@ header {
 
 .gallery-container div:nth-child(1) {
     height: 550px;
-    /* border-top: #fffefd solid 5px; */
-    background: url() no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-597927357@3x.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
-    /* border-top: #fffefd solid 5px; */
-    background: url() no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-608115299-preview@3x.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
-    /* border-top: #fffefd solid 5px; */
-    background: url() no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-623375414-preview@3x.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
-    /* border-top: #fffefd solid 5px; */
-    /* border-bottom: #fffefd solid 5px; */
-    background: url() no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    border-bottom: #fffefd solid 5px;
+    background: url(../img/adobe-stock-583153917-preview@3x.webp) no-repeat center center/cover;
 }
 /* Gallery end */
 
