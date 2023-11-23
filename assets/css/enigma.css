@@ -6,8 +6,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI','Inter', sans-serif;
+    font-family: sans-serif;
 }
+
+
 
 /* General styles */
 body {
@@ -25,7 +27,7 @@ section {
 
 
 h2:first-child {
-    font-family: 'haboro-contrast-extended', sans-serif;
+    font-family: sans-serif;
     color: #1a1a1a;
     font-weight: bold;
     text-align: center;
@@ -34,7 +36,7 @@ h2:first-child {
 }
 
 h3:first-of-type {
-    font-family: 'nexa-rust-sans-black-2', sans-serif;
+    font-family: sans-serif;
     color: #56348c;
     font-size: 1.0625rem;
     margin-top: 2.5rem;
@@ -99,7 +101,7 @@ header {
 }
   
 #logo {
-    font-family: "haboro-contrast-extended", sans-serif;
+    font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
     font-size: 1.75rem;
@@ -334,7 +336,7 @@ header {
     letter-spacing: 1px;
     text-transform: lowercase;
     color: #fffefd;                             /* channge general*/
-    font-family: 'Segoe UI','Inter', sans-serif;  /*     styling    */ 
+    font-family: sans-serif;  /*     styling    */ 
     text-align: center;                
 }
 
@@ -351,7 +353,7 @@ header {
 }
 
 .tagline-1 {
-    font-family: "haboro-contrast-extended", sans-serif;
+    font-family: sans-serif;
     font-style: italic;
     font-size: 2.25em;
     font-weight: bold;
@@ -359,7 +361,7 @@ header {
 }
 
 .tagline-2 {
-    font-family: "haboro-contrast-extended", sans-serif;
+    font-family: sans-serif;
     font-style: italic;
     font-size: 2.25em;
     font-weight: bold;
@@ -517,7 +519,7 @@ footer {
 
 .headline {
     margin: 1.563rem 0 1.25rem;
-    font-family: "haboro-contrast-extended", sans-serif;
+    font-family: sans-serif;
     font-style: italic;
     font-size: 2.25rem;
     font-weight: 900;
@@ -545,7 +547,7 @@ footer {
 }
 
 #footer-logo {
-    font-family: "haboro-contrast-extended", sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
     color: #1a1a1a;
