@@ -309,7 +309,7 @@ header {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.5)), 
-    url(../img/AdobeStock_576195150.webp) no-repeat center/cover;
+    url(../img/adobe-stock-576195150@3x.webp) no-repeat center/cover;
     background-position-y: 5rem;
 }
 
@@ -480,26 +480,26 @@ header {
 .gallery-container div:nth-child(1) {
     height: 550px;
     /* border-top: #fffefd solid 5px; */
-    background: url(../img/AdobeStock_597927357.webp) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
     /* border-top: #fffefd solid 5px; */
-    background: url(../img/AdobeStock_608115299_Preview.webp) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
     /* border-top: #fffefd solid 5px; */
-    background: url(../img/AdobeStock_623375414_Preview.webp) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
     /* border-top: #fffefd solid 5px; */
     /* border-bottom: #fffefd solid 5px; */
-    background: url(../img/AdobeStock_583153917_Preview.webp) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
 }
 /* Gallery end */
 
