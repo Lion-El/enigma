@@ -480,26 +480,26 @@ header {
 .gallery-container div:nth-child(1) {
     height: 550px;
     border-top: #fffefd solid 5px;
-    background: url(../img/adobe-stock-597927357@3x.webp) no-repeat center center/cover;
+    background: url(../img/adobe-stock-597927357.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(2) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    background: url(../img/adobe-stock-608115299-preview@3x.webp) no-repeat center center/cover;
+    background: url(../img/adobe-stock-608115299-preview.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(3) {
     height: 450px;
     border-top: #fffefd solid 5px;
-    background: url(../img/adobe-stock-623375414-preview@3x.webp) no-repeat center center/cover;
+    background: url(../img/adobe-stock-623375414-preview.webp) no-repeat center center/cover;
 }
 
 .gallery-container div:nth-child(4) {
     height: 450px;
     border-top: #fffefd solid 5px;
     border-bottom: #fffefd solid 5px;
-    background: url(../img/adobe-stock-583153917-preview@3x.webp) no-repeat center center/cover;
+    background: url(../img/adobe-stock-583153917-preview.webp) no-repeat center center/cover;
 }
 /* Gallery end */
 
@@ -880,7 +880,7 @@ footer {
         width: 16.03em;
         height: 10.767em;
         background-size: cover;
-        /* border: #fffefd solid 4px; */
+        border: #fffefd solid 4px;
         transform: translate(-12.744em, -8.75em)
     }
 
@@ -888,7 +888,7 @@ footer {
         width: 11.6em;
         height: 8.33em;
         background-size: cover;
-        /* border: #fffefd solid 4px; */
+        border: #fffefd solid 4px;
         transform: translate(-10.184em, 0.417em);
     }
 
@@ -896,7 +896,7 @@ footer {
         width: 9.316em;
         height: 7.1em;
         background-size: cover;
-        /* border: #fffefd solid 4px; */
+        border: #fffefd solid 4px;
         /* z-index: 91; */
         transform: translate(1.827em, -7.083em);
     }
@@ -905,7 +905,7 @@ footer {
         width: 13.56em;
         height: 8.983em;
         background-size: cover;
-        /* border: #fffefd solid 4px; */
+        border: #fffefd solid 4px;
         transform: translate(-1.0em, -1.875em);
     }
     /* relative positioning from center end */
