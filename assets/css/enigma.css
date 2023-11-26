@@ -1,13 +1,11 @@
 /*import font styles*/
 @import url("https://use.typekit.net/tza0qdn.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-    font-display: optional;
 }
 
 /* General styles */
@@ -25,7 +23,7 @@ section {
 
 
 
-h2:first-child {
+.load-fonts h2:first-child {
     font-family: 'haboro-contrast-extended', sans-serif;
     font-display: optional;
     color: #1a1a1a;
@@ -36,7 +34,7 @@ h2:first-child {
 }
 
 
-h3:first-of-type {
+.load-fonts h3:first-of-type {
     font-family: 'nexa-rust-sans-black-2', sans-serif;
     font-display: optional;
     color: #56348c;
@@ -104,7 +102,7 @@ header {
     text-transform: capitalize;
 }
   
-#logo {
+.load-fonts #logo {
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -333,7 +331,7 @@ header {
     text-transform: capitalize; /* change general styling */
 }
 
-.banner > h2 {
+.load-fonts .banner > h2 {
     left: -25px;
     font-size: 1.25em;
     font-weight: 500;
@@ -356,7 +354,7 @@ header {
     align-items: center;
 }
 
-.tagline-1 {
+.load-fonts .tagline-1 {
     font-family: "haboro-contrast-extended", sans-serif;
     font-display: optional;
     font-style: italic;
@@ -365,7 +363,7 @@ header {
     text-align: center;
 }
 
-.tagline-2 {
+.load-fonts .tagline-2 {
     font-family: "haboro-contrast-extended", sans-serif;
     font-display: optional;
     font-style: italic;
@@ -535,7 +533,7 @@ footer {
 }
 
 
-.headline {
+.load-fonts .headline {
     margin: 1.563rem 0 1.25rem;
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
