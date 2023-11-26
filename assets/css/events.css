@@ -131,25 +131,30 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(../img/immersive-v1-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 4px;
+    background: url(../img/adobe-stock-134914663-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    background: url(../img/immersive-v2-317610684-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-317610684-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    background: url(../img/immersive-v3-623412046-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-623412046-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    background: url(../img/immersive-v4-644443995-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    border-bottom: #fffefd solid 5px;
+    background: url(../img/adobe-stock-644443995-preview@3x.webp) no-repeat center center/cover;
 }
 /* visual arts html end */
 
@@ -158,25 +163,30 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(../img/immersive-exL1-618585827-preview.png) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-618585827-preview.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    background: url(../img/immersive-exL2-662274961-preview.png) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-662274961-preview@2x.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    background: url(../img/immersive-exL3-590741261-preview.png) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/adobe-stock-590741261-preview.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    background: url(../img/immersive-exL4-650724042-preview.png) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    border-bottom: #fffefd solid 5px;
+    background: url(../img/adobe-stock-650724042-preview.webp) no-repeat center center/cover;
 }
 /* literary arts html end */
 
@@ -186,25 +196,30 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    background: url(../img/immersive-ex1-613672260-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/AdobeStock_613672260_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    background: url(../img/immersive-ex2-597882717-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/AdobeStock_597882717_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    background: url(../img/immersive-ex3-420523288-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    background: url(../img/AdobeStock_420523288_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    background: url(../img/immersive-ex4-619187646-preview.jpg) no-repeat center center/cover;
+    border-top: #fffefd solid 5px;
+    border-bottom: #fffefd solid 5px;
+    background: url(../img/AdobeStock_619187646_Preview.webp) no-repeat center center/cover;
 }
 /* performing arts html end */
 

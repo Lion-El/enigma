@@ -50,10 +50,6 @@ body{
     text-transform: capitalize;
 }
 
-p {
-    
-}
-
 .headlines p {
     display: flex;
     flex-direction: column;
@@ -63,6 +59,7 @@ p {
     width: 15em;
     align-self: center;
     margin-bottom: 1rem ;
+    border: #1a1a1a solid 0.2px;
 }
 
 .essential {
