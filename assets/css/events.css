@@ -114,7 +114,7 @@
     padding: 5rem 0;
 }
 
-.the-mission > h2 {
+.load-fonts .the-mission > h2 {
     color: #fffefd;
 }
 
@@ -131,29 +131,29 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    border-top: #fffefd solid 4px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-134914663-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-317610684-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-623412046-preview.webp) no-repeat center center/cover;
 }
 
 .visual-immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
+    border-bottom: #fffefd solid 2px;
     background: url(../img/adobe-stock-644443995-preview@3x.webp) no-repeat center center/cover;
 }
 /* visual arts html end */
@@ -163,29 +163,29 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-618585827-preview.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-662274961-preview@2x.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/adobe-stock-590741261-preview.webp) no-repeat center center/cover;
 }
 
 .literary-immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
+    border-bottom: #fffefd solid 2px;
     background: url(../img/adobe-stock-650724042-preview.webp) no-repeat center center/cover;
 }
 /* literary arts html end */
@@ -196,29 +196,29 @@
     height: 420px;
     width: 100vw;
     margin-top: 2.5rem;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/AdobeStock_613672260_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(2) {
     height: 579px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/AdobeStock_597882717_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(3) {
     height: 503px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
     background: url(../img/AdobeStock_420523288_Preview.webp) no-repeat center center/cover;
 }
 
 .immersive-ex-image div:nth-child(4) {
     height: 344px;
     width: 100vw;
-    border-top: #fffefd solid 5px;
-    border-bottom: #fffefd solid 5px;
+    border-top: #fffefd solid 2px;
+    border-bottom: #fffefd solid 2px;
     background: url(../img/AdobeStock_619187646_Preview.webp) no-repeat center center/cover;
 }
 /* performing arts html end */

@@ -166,7 +166,7 @@
                 </div>
                 <div class="carnival-img-wrap-2 img-container">
                     <div><img src="../enigma/assets/img/AdobeStock_423060260_Preview.webp" alt="carnival pictured"></div>
-                    <div><img src="../enigma/assets/img/AdobeStock_650417514.webp" alt="carnival pictured"></div>
+                    <div><img src="../enigma/assets/img/AdobeStock_650417514_Preview.webp" alt="carnival pictured"></div>
                     <div><img src="../enigma/assets/img/AdobeStock_207996433_Preview.webp" alt="carnival pictured"></div>
                     <div><img src="../enigma/assets/img/AdobeStock_637123378_Preview.webp" alt="carnival pictured"></div>
                 </div>
@@ -259,5 +259,15 @@
     </footer>
     <!-- footer end-->
     <script src="https://kit.fontawesome.com/d1ba104d49.js" crossorigin="anonymous"></script>
+    <script src="node_modules/fontfaceobserver/fontfaceobserver.js"></script>
+        <script>
+            
+            var font = new FontFaceObserver('haboro-contrast-extended');
+
+            font.load().then(function () {
+                document.documentElement.className += "load-fonts";
+                console.log('My Family has loaded');
+            });
+        </script>
 </body>
 </html>

@@ -114,11 +114,11 @@
     background-color: #1a1a1a;
 }
 
-.the-mission > h2 {
+.load-fonts .the-mission > h2 {
     color: #fffefd;
 }
 
-.the-mission  h3 {
+.load-fonts .the-mission  h3 {
     color: #fffefd;
 }
 
@@ -141,6 +141,8 @@
     height: 550px;
     width: 100vw;
     margin-top: 2.5rem;
+    border-top: #fffefd solid 1px;
+    border-bottom: #fffefd solid 1px;
     background: url(../img/adobe-stock-213965477-preview.webp) no-repeat center center/cover;
 }
 
@@ -157,6 +159,8 @@
     height: 550px;
     width: 100vw;
     margin-top: 2.5rem;
+    border-top: #fffefd solid 1px;
+    border-bottom: #fffefd solid 1px;
     background: url(../img/adobe-stock-238245385-preview.webp) no-repeat center center/cover;
 }
 
@@ -175,6 +179,8 @@
     height: 667px;
     width: 100vw;
     margin-top: 2.5rem;
+    border-top: #fffefd solid 1px;
+    border-bottom: #fffefd solid 1px;
     background: url(../img/adobe-stock-592331955-preview.webp) no-repeat center center/cover;
 }
 
@@ -334,6 +340,7 @@
     .our-premises-image div:nth-child(1) {
         width: 16.66666em;
         height: 9.654em;
+        border: #fffefd solid 0.2px;
     }
 
     /* the mission */

@@ -344,5 +344,15 @@
     </footer>
     <!-- footer end-->
     <script src="https://kit.fontawesome.com/d1ba104d49.js" crossorigin="anonymous"></script>
+    <script src="node_modules/fontfaceobserver/fontfaceobserver.js"></script>
+        <script>
+            
+            var font = new FontFaceObserver('haboro-contrast-extended');
+
+            font.load().then(function () {
+                document.documentElement.className += "load-fonts";
+                console.log('My Family has loaded');
+            });
+        </script>
 </body>
 </html>
