@@ -375,7 +375,7 @@
     <script>
         var font = new FontFaceObserver('haboro-contrast-extended');
 
-        font.load('中国').then(function () {
+        font.load().then(function () {
             document.documentElement.className += "load-fonts";
             console.log('My Family has loaded')
         }).catch(e => {
