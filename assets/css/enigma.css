@@ -23,7 +23,7 @@ section {
 
 
 
-.load-fonts h2:first-child {
+h2:first-child {
     font-family: 'haboro-contrast-extended', sans-serif;
     font-display: optional;
     color: #1a1a1a;
@@ -34,7 +34,7 @@ section {
 }
 
 
-.load-fonts h3:first-of-type {
+h3:first-of-type {
     font-family: 'nexa-rust-sans-black-2', sans-serif;
     font-display: optional;
     color: #56348c;
@@ -102,7 +102,7 @@ header {
     text-transform: capitalize;
 }
   
-.load-fonts #logo {
+#logo {
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -331,7 +331,7 @@ header {
     text-transform: capitalize; /* change general styling */
 }
 
-.load-fonts .banner > h2 {
+.banner > h2 {
     left: -25px;
     font-size: 1.25em;
     font-weight: 500;
@@ -354,7 +354,7 @@ header {
     align-items: center;
 }
 
-.load-fonts .tagline-1 {
+.tagline-1 {
     font-family: "haboro-contrast-extended", sans-serif;
     font-display: optional;
     font-style: italic;
@@ -363,7 +363,7 @@ header {
     text-align: center;
 }
 
-.load-fonts .tagline-2 {
+.tagline-2 {
     font-family: "haboro-contrast-extended", sans-serif;
     font-display: optional;
     font-style: italic;
@@ -533,7 +533,7 @@ footer {
 }
 
 
-.load-fonts .headline {
+.headline {
     margin: 1.563rem 0 1.25rem;
     font-family: "haboro-contrast-extended", sans-serif;
     font-style: italic;
