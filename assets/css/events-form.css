@@ -153,12 +153,6 @@ hr {
     }
 }
 
-@media screen and (min-width: 1280px) {
-    section {
-        /* font-size: 26px; */
-    }
-}
-
 @media screen and (min-width: 1440px) {
     .events-form {
         padding: 7rem 6.66666em;
