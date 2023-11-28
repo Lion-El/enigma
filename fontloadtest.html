@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Browser Test</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="https://use.typekit.net/tza0qdn.css">
+  </head>
+  <body>
+    <script src="../enigma/node_modules/fontfaceobserver/fontfaceobserver.js"></script>
+    <script>
+      const font = new FontFaceObserver('haboro-contrast-extended');
+
+      font.load().then(f => {
+        console.log('Font has loaded');
+      }).catch(e => {
+        console.error(e);
+      });
+    </script>
+  </body>
+</html>
