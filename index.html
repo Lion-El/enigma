@@ -375,7 +375,7 @@
     <script>
         var font = new FontFaceObserver('haboro-contrast-extended');
 
-        font.load().then(function () {
+        font.load('haboro-contrast-extended').then(function () {
             document.documentElement.className += "load-fonts";
             console.log('My Family has loaded')
         }).catch(e => {
