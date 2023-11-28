@@ -374,14 +374,10 @@
     <!-- footer end-->
     <script src="https://kit.fontawesome.com/d1ba104d49.js" crossorigin="anonymous"></script>
     <script src="../enigma/node_modules/fontfaceobserver/fontfaceobserver.js"></script>
-    <script src="../enigma/node_modules/fontfaceobserver/src/observer.js"></script>
-    <script src="../enigma/node_modules/fontfaceobserver/src/descriptors.js"></script>
-    <script src="../enigma/node_modules/fontfaceobserver/src/ruler.js"></script>
     <script>
-        var FontFaceObserver = require('fontfaceobserver');
         var font = new FontFaceObserver('haboro-contrast-extended');
 
-        font.load().then(function () {
+        font.load('中国').then(function () {
             document.documentElement.className += "load-fonts";
             console.log('My Family has loaded');
         });
