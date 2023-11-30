@@ -4,5 +4,5 @@ This website is for local communities nationwide. The purpose of this website is
 
 The website is made up of twelve pages. There are three main parts to the website each part is made up of three pages. The first part covers the background, purpose and significance. The second covers the events and the third is a gallery of all the artworks produced by current members and participants. There is a landing page with a brief description and navigation links to the main content, a form page and a newsletter.
 
-![](../enigma/assets/img/responsive%20screenshot.png)
+![responsive design](../enigma/assets/img/responsive%20screenshot.png)
 
