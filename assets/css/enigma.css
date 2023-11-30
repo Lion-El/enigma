@@ -417,14 +417,14 @@ header {
 
 .image {
     width: 13.938em;
-    height: 9.292em;
+    /* height: 9.292em; */
     border: solid 0.5px #1a1a1a;
 }
 
 #health-image-3, 
 #community-image-3 {
-    width: 13.938em;
-    height: 7.840em;
+    /* width: 13.938em; */
+    /* height: 7.840em; */
 }
 
 .mission-community h2 {
