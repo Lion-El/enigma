@@ -871,7 +871,6 @@ footer {
     /* gallery */
 
     .gallery-container {
-        display: flex;
         position: relative;
         height: 17.85em;
     }
@@ -904,6 +903,7 @@ footer {
         height: 7.1em;
         background-size: cover;
         border: #fffefd solid 4px;
+        z-index: 91;
         transform: translate(1.827em, -7.083em);
     }
 

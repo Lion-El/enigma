@@ -4,6 +4,51 @@ This website is for local communities nationwide. The purpose of this website is
 
 The website is made up of twelve pages. There are three main parts to the website each part is made up of three pages. The first part covers the background, purpose and significance. The second covers the events and the third is a gallery of all the artworks produced by current members and participants. There is a landing page with a brief description and navigation links to the main content, a form page and a newsletter.
 
+## Design
+
+Based on the project brief of a real or imagined need my original idea was expanded from the health benefits of dancing to the field of the arts. What started as a three-page website ended up as a twelve-page site and could have been much larger. I took my design inspiration from a couple of websites - Hinge and Stripe.
+I followed the 5 plane UX design process:  
+
+### User Research
+
+#### Stress
+
+A UK-wide stress survey has found that almost three-quarters of adults (74%) have felt so stressed over the past year that they felt overwhelmed or unable to cope.
+
+The survey – commissioned by the Mental Health Foundation – also found that almost a third of people (32%) had experienced suicidal thoughts or feelings because of stress.
+
+Meanwhile, one-sixth of people (16%) said they had self-harmed as a result of feelings of stress.
+
+The study was commissioned by YouGov to launch Mental Health Awareness Week, which has been run by the Mental Health Foundation since 2001. The study is believed to be the largest and most comprehensive stress survey ever carried out across the UK, with 4,619 people surveyed.
+
+#### Isolation
+
+Approximately 2,561,392 adults in England are chronically lonely (meaning they often or always feel lonely). This is 6% of the adult population.
+30% of people living with obesity report feeling lonely at least some of the time – around ten points higher than those not living with obesity.
+There is a strong link between loneliness and general health, with 28% of adults who report bad health saying that they often or always feel lonely compared to 4% in good health and 9% in fair health.
+10% of adults living in the most deprived neighborhoods are chronically lonely compared to 3% in the least deprived neighborhoods.
+
+#### Strategy
+* This product is being created for people within communities across the UK to access a creative outlet that is designed to help alleviate the stresses and strains of everyday life and promote health and community.
+* The aim is to give people an outlet to relax and feel good. To bring people out of isolation and bring people together. We believe this can help with people's needs as it relates to the research.
+
+#### Scope
+* Being that our audience is general and covers the whole spectrum from young to old we wanted to create a fairly simple yet modern and attractive website. We have three main content elements: purpose, events, and gallery with links to each page from navigation links and intro content.
+
+#### Structure
+* The landing page is an introduction to the rest of the site. There are links via buttons to more detailed reading in each section of the landing page apart from the gallery section. There is a main navigation that opens via the clicking of a sandwich icon on the header. The main nav has three options which each open a sub-menu with a further three links to pages. The events pages have links via a button that leads to an events form for registering for an event. The footer has a link to a newsletter and an index with links for navigation to the whole site. The Enigma logo in the header and footer both take you back to the landing page hero section. The newsletter is an external source so opens up another tab and does not take you away from the main site.
+
+#### Skeleton and Surface
+
+Adobe XD was used for the initial design:  
+
+![initial landing page design](https://i.imgur.com/xq9g0zbl.png)
+![initial about us pages design](https://i.imgur.com/CGvQPb0l.png)
+![initial events pages design](https://i.imgur.com/J4exZj3l.png)
+![initial events from, newsletter and one gallery page design](https://i.imgur.com/pfBheYKl.png)
+
+
+
 ## Responsive Design
 
 ![responsive design](https://i.imgur.com/cYjnboK.png)
@@ -115,18 +160,20 @@ The newsletter is front page news on an external website which is a local counci
 
 ## Bugs and fixes  
 
-Using Absolute and relative positioning to overlap images caused adjacent content to move into the same position as the content being positioned and leave large white space respectively:
+
+#### Absolute and Relative positioning
+* Using absolute positioning to overlap images caused child elements to be removed from the flow of the page. The child naturally moves to its new position relative the its new parent which is the document object. The previous parent collapses as it has no content and adjacent content now moves into its position. Using relative positioning to move elements leaves white space.
 
 #### Sub-hero section - fix
-* Set parent element/container to flex and relative. set child elements to float and translate them into position. Using float and translate allows the content to be controlled by the parent element and keeps it within the flow as opposed to using absolute.
+* Set parent element/container to flex and relative. Set child elements to float and translate them into position. Using float and translate allows the content to be controlled by the parent element and keeps it within the flow as opposed to using absolute.
 
 #### gallery section - fix
-* Set parent element/container to flex and relative. setting the parent to flex keeps the parent within the flow and stops adjacent content from moving and overlapping the content being moved. set child elements to absolute and position 50% to place them at the center of the parent element, then translate them into position. Using absolute and translation in this way keeps the images in the same position relative to the center. This method was replicated for the events and gallery pages.
+* Set parent element/container to relative. Setting the parent to relative retains the child elements as children and keeps them contained within the parent. Set child elements to absolute and position 50% to place them at the center of the parent element, then translate them into position. Using absolute and translation in this way keeps the images in the same position relative to the center. This method was replicated for the events and gallery pages.
 
-#### images paths
+#### Images paths
 Images are rendered to the website through the local host but they do not show when deployed through the remote server.
 
-#### image paths - fix  
+#### Image paths - fix  
 * add to full stops before the first file or folder identifier.
 
 ## Technology  
@@ -157,7 +204,6 @@ CSS Bootcamp: Master CSS -
 
 ```
 .gallery-container {
-        display: flex;
         position: relative;
         height: 17.85em;
     }
@@ -202,6 +248,8 @@ CSS Bootcamp: Master CSS -
     }
     /* relative positioning from center end */
 ```
+
+s
 
 ## Media  
 
