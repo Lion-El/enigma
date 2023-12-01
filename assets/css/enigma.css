@@ -417,14 +417,7 @@ header {
 
 .image {
     width: 13.938em;
-    /* height: 9.292em; */
     border: solid 0.5px #1a1a1a;
-}
-
-#health-image-3, 
-#community-image-3 {
-    /* width: 13.938em; */
-    /* height: 7.840em; */
 }
 
 .mission-community h2 {
@@ -835,7 +828,6 @@ footer {
         display: flex;
         flex-direction: column;
         flex: 1 1;
-        position: relative;
         margin: 0;
     }
 
@@ -912,7 +904,6 @@ footer {
         height: 7.1em;
         background-size: cover;
         border: #fffefd solid 4px;
-        /* z-index: 91; */
         transform: translate(1.827em, -7.083em);
     }
 
