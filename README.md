@@ -28,7 +28,7 @@ Approximately 2,561,392 adults in England are chronically lonely (meaning they o
 There is a strong link between loneliness and general health, with 28% of adults who report bad health saying that they often or always feel lonely compared to 4% in good health and 9% in fair health.
 10% of adults living in the most deprived neighborhoods are chronically lonely compared to 3% in the least deprived neighborhoods.
 
-## Strategy
+#### Strategy
 * This product is being created for people within communities across the UK to access a creative outlet that is designed to help alleviate the stresses and strains of everyday life and promote health and community.
 * The aim is to give people an outlet to relax and feel good. To bring people out of isolation and bring people together. We believe this can help with people's needs as it relates to the research.
 
