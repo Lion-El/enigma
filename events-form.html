@@ -173,11 +173,11 @@
                     <form action="https://formdump.codeinstitute.net" method="POST">
                         <div class="text-input">
                             <label for="f-name">First name:</label>
-                            <input type="text" id="f-name" name="first-name" required>
+                            <input type="text" id="f-name" name="first-name" autocomplete="given-name" required>
                         </div>
                         <div class="text-input">
                             <label for="l-name">Last name:</label>
-                            <input type="text" id="l-name" name="last-name" required>
+                            <input type="text" id="l-name" name="last-name" autocomplete="family-name" required>
                         </div>
                         <div class="text-input">
                             <label for="h-phone">Home phone:</label>
@@ -189,7 +189,7 @@
                         </div>
                         <div class="text-input">
                             <label for="email">Email address:</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
                         </div>
                         <div class="drop-down-list">
                             <label for="event">Event type/genre:</label>
@@ -204,7 +204,7 @@
                             <label for="discipline">Discipline:</label>
                             <select name="art-form" id="discipline">
                                 <option value="" class="">Select activity</option>
-                                <option value="conceptual-art" class="v-art">Concepttual art</option>
+                                <option value="conceptual-art" class="v-art">Contemporary art</option>
                                 <option value="drawing" class="v-art">Drawing</option>
                                 <option value="painting" class="v-art">Painting</option>
                                 <option value="photography" class="v-art">Photography</option>
@@ -222,7 +222,7 @@
                             </select>
                         </div>
                         <div class="drop-down-list">
-                            <label for="location">Locatiion:</label>
+                            <label for="location">Location:</label>
                             <select name="location" id="location">
                                 <option value="" class="">Choose location</option>
                                 <option value="bromley">Bromley</option>
@@ -234,29 +234,30 @@
                         </div>
                         <div class="drop-down-list">
                             <label for="duration">Duration:</label>
-                        <select name="duration" id="duration">
-                            <option value="" class="">Select duration</option>
-                            <option value="5-days">Five days</option>
-                            <option value="7-days">Seven days</option>
-                        </select>
+                            <select name="duration" id="duration">
+                                <option value="" class="">Select duration</option>
+                                <option value="5-days">Five days</option>
+                                <option value="7-days">Seven days</option>
+                            </select>
                         </div>
                         <div class="drop-down-list">
                             <label for="immersive">immersive:</label>
-                        <select name="immersive" id="immersive">
-                            <option value="" class="">Immersive experience</option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
+                            <select name="immersive" id="immersive">
+                                <option value="" class="">Immersive experience</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
                         </div>
                         <div class="drop-down-list">
                             <label for="disability">Do you have a disability?</label>
                             <select name="disability" id="disability">
+                                <option value="">Disability</option>
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
                         <div class="textarea">
-                            <label for="disability-description">Please descibe your disability:</label>
+                            <label for="disability-description">Please describe your disability:</label>
                             <textarea name="disability-description" id="disability-description" cols="1" rows="5"></textarea>
                         </div>
                         <input type="submit" value="submit" class="button">
@@ -344,5 +345,6 @@
     </footer>
     <!-- footer end-->
     <script src="https://kit.fontawesome.com/d1ba104d49.js" crossorigin="anonymous"></script>
+    <script src="../enigma/enigma.js"></script>
 </body>
 </html>

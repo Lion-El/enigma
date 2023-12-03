@@ -157,6 +157,7 @@ The newsletter is front page news on an external website which is a local counci
 * I have checked every link on the site goes to its correct destination.
 * Every section on the site is readable and easy to understand.
 * I have checked the form works and every input field requires an entry.
+* HTML and CSS code have been Validated with no errors.
 
 ## Bugs and fixes  
 
@@ -180,6 +181,7 @@ Images are rendered to the website through the local host but they do not show w
 Adobe XD  
 Zeppelin  
 HTML/CSS
+JavaScript
 
 ## Deployment Process
 
@@ -201,55 +203,6 @@ Positioning images central relative to the parent.
 George Lomidze  
 CSS Bootcamp: Master CSS - 
 [Packt](https://subscription.packtpub.com/video/web-development/9781800202801/p5/video5_1/-grand-hotel-project-preview)
-
-```
-.gallery-container {
-        position: relative;
-        height: 17.85em;
-    }
-
-    /* relative positioning from center */
-    .gallery-container div {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-    }
-
-    .gallery-container div:nth-child(1) {
-        width: 16.03em;
-        height: 10.767em;
-        background-size: cover;
-        border: #fffefd solid 4px;
-        transform: translate(-12.744em, -8.75em)
-    }
-
-    .gallery-container div:nth-child(2) {
-        width: 11.6em;
-        height: 8.33em;
-        background-size: cover;
-        border: #fffefd solid 4px;
-        transform: translate(-10.184em, 0.417em);
-    }
-
-    .gallery-container div:nth-child(3) {
-        width: 9.316em;
-        height: 7.1em;
-        background-size: cover;
-        border: #fffefd solid 4px;
-        transform: translate(1.827em, -7.083em);
-    }
-
-    .gallery-container div:nth-child(4) {
-        width: 13.56em;
-        height: 8.983em;
-        background-size: cover;
-        border: #fffefd solid 4px;
-        transform: translate(-1.0em, -1.875em);
-    }
-    /* relative positioning from center end */
-```
-
-s
 
 ## Media  
 
