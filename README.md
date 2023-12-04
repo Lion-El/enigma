@@ -1,8 +1,8 @@
 # Enigma
 ### Art Therapy - Community Support Group Website
-This website is for local communities nationwide. The purpose of this website is to advertise and provide information about our community support group program. The program is funded and provided completely free. The purpose of the program is to create a community spirit and promote a healthier lifestyle through art. We are particularly interested in people who feel isolated maybe through a lack of funds or resources, confidence, or self-esteem or those who suffer from stress and anxiety. We want to bring local communities together around events based on a wide variety of artistic fields. There can be a divide along the lines of national, cultural and ethnic. This program hopes to bridge any divide that might exist through communication and freedom of expression through art, and each member can reap the health benefits through participation. There is a large study on the mental, physical and social health benefits of art. It is precisely this study that we want to utilize to bring different people together socially, creating a feeling of togetherness while nurturing the subtle seed of health.
+This website is for local communities nationwide. The purpose of this website is to promote and provide information about our community support group program. The program is funded and provided completely free. The purpose of the program is to create a community spirit and promote a healthier lifestyle through art.
 
-The website is made up of twelve pages. There are three main parts to the website each part is made up of three pages. The first part covers the background, purpose and significance. The second covers the events and the third is a gallery of all the artworks produced by current members and participants. There is a landing page with a brief description and navigation links to the main content, a form page and a newsletter.
+The website is made up of twelve pages. There are three main parts to the website each part is made up of three pages. The first part covers the foundation, inspiration, purpose and significance. The second covers the events provided and the third is a gallery of all the artworks produced by current members and participants. There is a landing page with a brief description and navigation links to the main content, a form page and a newsletter.
 
 ## Design
 
@@ -33,10 +33,10 @@ There is a strong link between loneliness and general health, with 28% of adults
 * The aim is to give people an outlet to relax and feel good. To bring people out of isolation and bring people together. We believe this can help with people's needs as it relates to the research.
 
 #### Scope
-* Being that our audience is general and covers the whole spectrum from young to old we wanted to create a fairly simple yet modern and attractive website. We have three main content elements: purpose, events, and gallery with links to each page from navigation links and intro content.
+* Being that our audience is general and covers the whole spectrum from young to old we wanted to create a fairly simple yet modern and attractive website with a strong community feel. We have three main content elements: mission, events, and gallery with links to each page from the navigation and intro content.
 
 #### Structure
-* The landing page is an introduction to the rest of the site. There are links via buttons to more detailed reading in each section of the landing page apart from the gallery section. There is a main navigation that opens via the clicking of a sandwich icon on the header. The main nav has three options which each open a sub-menu with a further three links to pages. The events pages have links via a button that leads to an events form for registering for an event. The footer has a link to a newsletter and an index with links for navigation to the whole site. The Enigma logo in the header and footer both take you back to the landing page hero section. The newsletter is an external source so opens up another tab and does not take you away from the main site.
+* The landing page is an introduction to the rest of the site. There are links via buttons to more detailed reading in each section of the landing page apart from the gallery section. There is a main navigation that opens via the clicking of a sandwich icon on the header. The main nav has three options, each option opens a sub-menu with a further three links to pages. The events pages have links via a button that leads to an events form for registering for an event. The footer has a link to a newsletter and an index with links for navigation to the whole site. The Enigma logo in the header and footer both take you back to the landing page hero section. The newsletter is an external source so opens up another tab and does not take you away from the main site.
 
 #### Skeleton and Surface
 
@@ -60,7 +60,7 @@ Adobe XD was used for the initial design:
 * Main Navigation
     * The main navigation for mobile opens via a click event: transition from sandwich icon to cross icon as the nav element slides out into view simultaneously.
     * In the tablet and desktop versions, the sandwich icon is removed and replaced by the main three categories which each open a sub-category via a click event.
-    Three main categories open a sub-navigation, each with three options.
+    Each sub-category has three options.
 
 #### Mobile and Tablet/Desktop navigation
 
@@ -72,7 +72,7 @@ Adobe XD was used for the initial design:
 
 ### Hero
 
-The hero section indicates what the site is about. It gives users an image that symbolizes the basis of the website along with a title and slogan.
+The hero section indicates what the site is about. It gives users an image that symbolizes the basis of the website reinforced with the title and slogan.
 
 ![main nav - mobile](https://i.imgur.com/YdP7yTVl.png)
 
@@ -180,7 +180,7 @@ Images are rendered to the website through the local host but they do not show w
 ## Technology  
 Adobe XD  
 Zeppelin  
-HTML/CSS
+HTML/CSS  
 JavaScript
 
 ## Deployment Process
