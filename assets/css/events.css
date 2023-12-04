@@ -229,6 +229,12 @@
 
 
 /* media quries */
+@media screen and (min-width: 425px) {
+    .the-mission > h2 {
+        padding: 0 1.78em;
+    }
+}
+
 @media screen and (min-width: 540px) {
     .text-content {
         overflow-y: unset;
