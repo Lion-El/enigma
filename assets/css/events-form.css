@@ -83,6 +83,7 @@ form > input:last-child {
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
     align-self: center;
+    cursor: pointer;
 }
 
 /* main end*/
