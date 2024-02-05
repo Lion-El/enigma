@@ -163,7 +163,7 @@ The newsletter is front page news on an external website which is a local counci
 
 
 #### Absolute and Relative positioning
-* Using absolute positioning to overlap images caused child elements to be removed from the flow of the page. The child naturally moves to its new position relative the its new parent which is the document object. The previous parent collapses as it has no content and adjacent content now moves into its position. Using relative positioning to move elements leaves white space.
+* Using absolute positioning to overlap images caused child elements to be removed from the flow of the page. The child naturally moves to its new position relative to its new parent which is the document object. The previous parent collapses as it has no content and adjacent content now moves into its position. Using relative positioning to move elements leaves white space.
 
 #### Sub-hero section - fix
 * Set parent element/container to flex and relative. Set child elements to float and translate them into position. Using float and translate allows the content to be controlled by the parent element and keeps it within the flow as opposed to using absolute.
